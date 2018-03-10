@@ -1,0 +1,17 @@
+/media/
+/downloader/
+/var/
+magmi/conf/
+app/etc/local.xml
+.idea/
+*.sql
+robots.txt
+/newstuff/
+/min/
+.DS_Store
+/node_modules/
+node_modules/*
+node_modules/
+.sass-cache/
+.sass-cache/*
+.htaccess
