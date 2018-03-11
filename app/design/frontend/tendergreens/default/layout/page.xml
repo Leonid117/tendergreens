@@ -62,6 +62,7 @@
                 <action method="addItem"><type>skin_js</type><name>js/lib/matchMedia.addListener.js</name></action>
                 <action method="addItem"><type>skin_js</type><name>js/lib/enquire.js</name></action>
                 <action method="addItem"><type>skin_js</type><name>js/app.js</name></action>
+                <action method="addItem"><type>skin_js</type><name>js/tendergreens.js</name></action>
                 <action method="addItem"><type>skin_js</type><name>js/lib/jquery.cycle2.min.js</name></action>
                 <action method="addItem"><type>skin_js</type><name>js/lib/jquery.cycle2.swipe.min.js</name></action>
                 <action method="addItem"><type>skin_js</type><name>js/slideshow.js</name></action>
@@ -121,6 +122,9 @@
 
             <block type="core/text_list" name="content" as="content" translate="label">
                 <label>Main Content Area</label>
+            </block>
+            <block type="core/template" name="tender-greens-content" as="tender-greens-content" translate="label" template="page/html/tender-greens-content.phtml">
+                <label>Content Area</label>
             </block>
 
             <block type="core/text_list" name="right" as="right" translate="label">
