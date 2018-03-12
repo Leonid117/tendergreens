@@ -1,9 +1,71 @@
+@font-face {
+  font-family: 'TGSharpSans-Black';
+  src: url("../fonts/TGSharpSans-Black.ttf") format("truetype"); }
+@font-face {
+  font-family: 'TGSharpSans-BlackItalic';
+  src: url("../fonts/TGSharpSans-BlackItalic.ttf") format("truetype"); }
+@font-face {
+  font-family: 'TGSharpSans-Bold';
+  src: url("../fonts/TGSharpSans-Bold.ttf") format("truetype"); }
+@font-face {
+  font-family: 'TGSharpSans-BoldItalic';
+  src: url("../fonts/TGSharpSans-BoldItalic.ttf") format("truetype"); }
+@font-face {
+  font-family: 'TGSharpSans-Book';
+  src: url("../fonts/TGSharpSans-Book.ttf") format("truetype"); }
+@font-face {
+  font-family: 'TGSharpSans-BookItalic';
+  src: url("../fonts/TGSharpSans-BookItalic.ttf") format("truetype"); }
+@font-face {
+  font-family: 'TGSharpSans-Extrabold';
+  src: url("../fonts/TGSharpSans-Extrabold.ttf") format("truetype"); }
+@font-face {
+  font-family: 'TGSharpSans-ExtraboldItalic';
+  src: url("../fonts/TGSharpSans-ExtraboldItalic.ttf") format("truetype"); }
+@font-face {
+  font-family: 'TGSharpSans-Hairline';
+  src: url("../fonts/TGSharpSans-Hairline.ttf") format("truetype"); }
+@font-face {
+  font-family: 'TGSharpSans-HairlineItalic';
+  src: url("../fonts/TGSharpSans-HairlineItalic.ttf") format("truetype"); }
+@font-face {
+  font-family: 'TGSharpSans-Light';
+  src: url("../fonts/TGSharpSans-Light.ttf") format("truetype"); }
+@font-face {
+  font-family: 'TGSharpSans-LightItalic';
+  src: url("../fonts/TGSharpSans-LightItalic.ttf") format("truetype"); }
+@font-face {
+  font-family: 'TGSharpSans-Medium';
+  src: url("../fonts/TGSharpSans-Medium.ttf") format("truetype"); }
+@font-face {
+  font-family: 'TGSharpSans-MediumItalic';
+  src: url("../fonts/TGSharpSans-MediumItalic.ttf") format("truetype"); }
+@font-face {
+  font-family: 'TGSharpSans-Semibold';
+  src: url("../fonts/TGSharpSans-Semibold.ttf") format("truetype"); }
+@font-face {
+  font-family: 'TGSharpSans-SemiboldItalic';
+  src: url("../fonts/TGSharpSans-SemiboldItalic.ttf") format("truetype"); }
+@font-face {
+  font-family: 'TGSharpSans-Thin';
+  src: url("../fonts/TGSharpSans-Thin.ttf") format("truetype"); }
+@font-face {
+  font-family: 'TGSharpSans-ThinItalic';
+  src: url("../fonts/TGSharpSans-ThinItalic.ttf") format("truetype"); }
+@font-face {
+  font-family: 'TGSharpSans-Ultrathin';
+  src: url("../fonts/TGSharpSans-Ultrathin.ttf") format("truetype"); }
+@font-face {
+  font-family: 'TGSharpSans-UltrathinItalic';
+  src: url("../fonts/TGSharpSans-UltrathinItalic.ttf") format("truetype"); }
 .page-header-container {
   height: 115px;
   z-index: 2; }
 
 .tenger-greens-wrapper {
-  max-width: 1920px; }
+  max-width: 1920px;
+  margin: 0 auto;
+  font-family: 'TGSharpSans-Medium'; }
 
 .hamburger-menu {
   margin: auto;
@@ -54,7 +116,8 @@
 
 .page-header-container > div {
   display: inline-block;
-  width: 33%; }
+  width: 33%;
+  float: left; }
 
 .tg-menu {
   padding: 47px 0 0 90px;
@@ -62,9 +125,10 @@
 
 .shop-by-category {
   text-transform: uppercase;
-  font-size: 20px;
+  font-size: 22px;
   margin: 0 0 0 35px;
-  vertical-align: top; }
+  vertical-align: top;
+  color: #ea3624; }
 
 .tg-header-right {
   padding: 10px 75px 0 0;
@@ -115,8 +179,9 @@ a {
   padding: 0 7px 0 10px; }
 
 .tg-header-minicart .label {
-  padding: 3px 0 0 15px;
-  display: inline-block; }
+  padding: 3px 0 0 25px;
+  display: inline-block;
+  font-family: 'TGSharpSans-Extrabold'; }
 
 .tg-header-minicart .count {
   background: white;
@@ -158,23 +223,24 @@ a {
 
 .jssorb032 .i .b {
   fill: #fff;
-  fill-opacity: 0.7;
-  stroke: #000;
+  fill-opacity: 1;
+  stroke: #fff;
   stroke-width: 1200;
   stroke-miterlimit: 10;
   stroke-opacity: 0.25; }
 
 .jssorb032 .i:hover .b {
-  fill: #000;
-  fill-opacity: .6;
-  stroke: #fff;
+  fill: #fff;
+  stroke: black;
+  stroke-width: 2000;
   stroke-opacity: .35; }
 
 .jssorb032 .iav .b {
-  fill: #000;
+  fill: #fff;
   fill-opacity: 1;
-  stroke: #fff;
-  stroke-opacity: .35; }
+  stroke-opacity: .35;
+  stroke: black;
+  stroke-width: 2000; }
 
 .jssorb032 .i.idn {
   opacity: .3; }
@@ -218,5 +284,1586 @@ a {
   right: 0;
   border-radius: 50%;
   top: -32px; }
+
+h1 {
+  color: white;
+  font-size: 60px;
+  margin-bottom: 0;
+  font-family: 'TGSharpSans-Bold';
+  letter-spacing: 3px; }
+
+h6 {
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  font-family: 'TGSharpSans-Bold';
+  letter-spacing: 1.3px; }
+
+.slider h6 {
+  z-index: 1;
+  margin-top: 30px; }
+
+.slide-content {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  top: 23%;
+  text-align: center; }
+
+.slider button {
+  z-index: 1;
+  background: transparent;
+  border: 4px solid white;
+  color: white;
+  text-transform: uppercase;
+  margin-top: 124px; }
+
+button {
+  font-size: 22px;
+  width: 185px;
+  height: 55px;
+  border-radius: 30px;
+  font-family: 'TGSharpSans-Bold'; }
+
+.donut-count {
+  font-family: 'TGSharpSans-Extrabold';
+  font-size: 33px;
+  width: 100%;
+  text-transform: uppercase;
+  position: absolute;
+  color: #fff;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 6; }
+
+.donut {
+  width: 210px;
+  height: 210px;
+  font-size: 210px;
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  margin: 0 0 0 30px;
+  display: inline-block; }
+  .donut:before, .donut:after {
+    content: "";
+    border: 8px solid #25cbd3;
+    position: absolute;
+    display: block;
+    width: 50%;
+    height: 100%;
+    transform-origin: 100% 50%;
+    border-radius: 100% 0 0 100% / 50% 0 0 50%; }
+  .donut:before {
+    z-index: 2;
+    border-right: none; }
+  .donut:after {
+    border-left: none;
+    z-index: 3;
+    transform: rotate(180deg);
+    opacity: 0; }
+  .donut-center {
+    width: 95%;
+    height: 95%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 4;
+    border-radius: 100%; }
+  .donut-mask {
+    width: 100%;
+    height: 100%;
+    position: absolute; }
+    .donut-mask:before, .donut-mask:after {
+      content: "";
+      border: 8px solid #fff;
+      position: absolute;
+      display: block;
+      width: 50%;
+      height: 100%;
+      transform-origin: 100% 50%;
+      border-radius: 100% 0 0 100% / 50% 0 0 50%; }
+    .donut-mask:before {
+      border-right: none;
+      z-index: 3; }
+    .donut-mask:after {
+      border-right: none;
+      transform: rotate(180deg);
+      z-index: 1; }
+
+.donut--1:before {
+  animation: rota1-1 0.8s forwards; }
+
+@keyframes rota1-1 {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(3.6deg); } }
+.donut--2:before {
+  animation: rota1-2 0.8s forwards; }
+
+@keyframes rota1-2 {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(7.2deg); } }
+.donut--3:before {
+  animation: rota1-3 0.8s forwards; }
+
+@keyframes rota1-3 {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(10.8deg); } }
+.donut--4:before {
+  animation: rota1-4 0.8s forwards; }
+
+@keyframes rota1-4 {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(14.4deg); } }
+.donut--5:before {
+  animation: rota1-5 0.8s forwards; }
+
+@keyframes rota1-5 {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(18deg); } }
+.donut--6:before {
+  animation: rota1-6 0.8s forwards; }
+
+@keyframes rota1-6 {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(21.6deg); } }
+.donut--7:before {
+  animation: rota1-7 0.8s forwards; }
+
+@keyframes rota1-7 {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(25.2deg); } }
+.donut--8:before {
+  animation: rota1-8 0.8s forwards; }
+
+@keyframes rota1-8 {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(28.8deg); } }
+.donut--9:before {
+  animation: rota1-9 0.8s forwards; }
+
+@keyframes rota1-9 {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(32.4deg); } }
+.donut--10:before {
+  animation: rota1-10 0.8s forwards; }
+
+@keyframes rota1-10 {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(36deg); } }
+.donut--11:before {
+  animation: rota1-11 0.8s forwards; }
+
+@keyframes rota1-11 {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(39.6deg); } }
+.donut--12:before {
+  animation: rota1-12 0.8s forwards; }
+
+@keyframes rota1-12 {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(43.2deg); } }
+.donut--13:before {
+  animation: rota1-13 0.8s forwards; }
+
+@keyframes rota1-13 {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(46.8deg); } }
+.donut--14:before {
+  animation: rota1-14 0.8s forwards; }
+
+@keyframes rota1-14 {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(50.4deg); } }
+.donut--15:before {
+  animation: rota1-15 0.8s forwards; }
+
+@keyframes rota1-15 {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(54deg); } }
+.donut--16:before {
+  animation: rota1-16 0.8s forwards; }
+
+@keyframes rota1-16 {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(57.6deg); } }
+.donut--17:before {
+  animation: rota1-17 0.8s forwards; }
+
+@keyframes rota1-17 {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(61.2deg); } }
+.donut--18:before {
+  animation: rota1-18 0.8s forwards; }
+
+@keyframes rota1-18 {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(64.8deg); } }
+.donut--19:before {
+  animation: rota1-19 0.8s forwards; }
+
+@keyframes rota1-19 {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(68.4deg); } }
+.donut--20:before {
+  animation: rota1-20 0.8s forwards; }
+
+@keyframes rota1-20 {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(72deg); } }
+.donut--21:before {
+  animation: rota1-21 0.8s forwards; }
+
+@keyframes rota1-21 {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(75.6deg); } }
+.donut--22:before {
+  animation: rota1-22 0.8s forwards; }
+
+@keyframes rota1-22 {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(79.2deg); } }
+.donut--23:before {
+  animation: rota1-23 0.8s forwards; }
+
+@keyframes rota1-23 {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(82.8deg); } }
+.donut--24:before {
+  animation: rota1-24 0.8s forwards; }
+
+@keyframes rota1-24 {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(86.4deg); } }
+.donut--25:before {
+  animation: rota1-25 0.8s forwards; }
+
+@keyframes rota1-25 {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(90deg); } }
+.donut--26:before {
+  animation: rota1-26 0.8s forwards; }
+
+@keyframes rota1-26 {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(93.6deg); } }
+.donut--27:before {
+  animation: rota1-27 0.8s forwards; }
+
+@keyframes rota1-27 {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(97.2deg); } }
+.donut--28:before {
+  animation: rota1-28 0.8s forwards; }
+
+@keyframes rota1-28 {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(100.8deg); } }
+.donut--29:before {
+  animation: rota1-29 0.8s forwards; }
+
+@keyframes rota1-29 {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(104.4deg); } }
+.donut--30:before {
+  animation: rota1-30 0.8s forwards; }
+
+@keyframes rota1-30 {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(108deg); } }
+.donut--31:before {
+  animation: rota1-31 0.8s forwards; }
+
+@keyframes rota1-31 {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(111.6deg); } }
+.donut--32:before {
+  animation: rota1-32 0.8s forwards; }
+
+@keyframes rota1-32 {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(115.2deg); } }
+.donut--33:before {
+  animation: rota1-33 0.8s forwards; }
+
+@keyframes rota1-33 {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(118.8deg); } }
+.donut--34:before {
+  animation: rota1-34 0.8s forwards; }
+
+@keyframes rota1-34 {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(122.4deg); } }
+.donut--35:before {
+  animation: rota1-35 0.8s forwards; }
+
+@keyframes rota1-35 {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(126deg); } }
+.donut--36:before {
+  animation: rota1-36 0.8s forwards; }
+
+@keyframes rota1-36 {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(129.6deg); } }
+.donut--37:before {
+  animation: rota1-37 0.8s forwards; }
+
+@keyframes rota1-37 {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(133.2deg); } }
+.donut--38:before {
+  animation: rota1-38 0.8s forwards; }
+
+@keyframes rota1-38 {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(136.8deg); } }
+.donut--39:before {
+  animation: rota1-39 0.8s forwards; }
+
+@keyframes rota1-39 {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(140.4deg); } }
+.donut--40:before {
+  animation: rota1-40 0.8s forwards; }
+
+@keyframes rota1-40 {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(144deg); } }
+.donut--41:before {
+  animation: rota1-41 0.8s forwards; }
+
+@keyframes rota1-41 {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(147.6deg); } }
+.donut--42:before {
+  animation: rota1-42 0.8s forwards; }
+
+@keyframes rota1-42 {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(151.2deg); } }
+.donut--43:before {
+  animation: rota1-43 0.8s forwards; }
+
+@keyframes rota1-43 {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(154.8deg); } }
+.donut--44:before {
+  animation: rota1-44 0.8s forwards; }
+
+@keyframes rota1-44 {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(158.4deg); } }
+.donut--45:before {
+  animation: rota1-45 0.8s forwards; }
+
+@keyframes rota1-45 {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(162deg); } }
+.donut--46:before {
+  animation: rota1-46 0.8s forwards; }
+
+@keyframes rota1-46 {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(165.6deg); } }
+.donut--47:before {
+  animation: rota1-47 0.8s forwards; }
+
+@keyframes rota1-47 {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(169.2deg); } }
+.donut--48:before {
+  animation: rota1-48 0.8s forwards; }
+
+@keyframes rota1-48 {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(172.8deg); } }
+.donut--49:before {
+  animation: rota1-49 0.8s forwards; }
+
+@keyframes rota1-49 {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(176.4deg); } }
+.donut--50:before {
+  animation: rota1-50 0.8s forwards; }
+
+.donut--50:after {
+  animation: rota2-50 0s forwards 0.8s; }
+
+@keyframes rota1-50 {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(180deg); } }
+@keyframes rota2-50 {
+  0% {
+    transform: rotate(180deg);
+    opacity: 1; }
+  100% {
+    transform: rotate(180deg);
+    opacity: 1; } }
+.donut--51:before {
+  animation: rota1-51 0.8s forwards; }
+
+.donut--51:after {
+  animation: rota2-51 0.016s forwards 0.8s; }
+
+@keyframes rota1-51 {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(180deg); } }
+@keyframes rota2-51 {
+  0% {
+    transform: rotate(180deg);
+    opacity: 1; }
+  100% {
+    transform: rotate(183.6deg);
+    opacity: 1; } }
+.donut--52:before {
+  animation: rota1-52 0.8s forwards; }
+
+.donut--52:after {
+  animation: rota2-52 0.032s forwards 0.8s; }
+
+@keyframes rota1-52 {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(180deg); } }
+@keyframes rota2-52 {
+  0% {
+    transform: rotate(180deg);
+    opacity: 1; }
+  100% {
+    transform: rotate(187.2deg);
+    opacity: 1; } }
+.donut--53:before {
+  animation: rota1-53 0.8s forwards; }
+
+.donut--53:after {
+  animation: rota2-53 0.048s forwards 0.8s; }
+
+@keyframes rota1-53 {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(180deg); } }
+@keyframes rota2-53 {
+  0% {
+    transform: rotate(180deg);
+    opacity: 1; }
+  100% {
+    transform: rotate(190.8deg);
+    opacity: 1; } }
+.donut--54:before {
+  animation: rota1-54 0.8s forwards; }
+
+.donut--54:after {
+  animation: rota2-54 0.064s forwards 0.8s; }
+
+@keyframes rota1-54 {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(180deg); } }
+@keyframes rota2-54 {
+  0% {
+    transform: rotate(180deg);
+    opacity: 1; }
+  100% {
+    transform: rotate(194.4deg);
+    opacity: 1; } }
+.donut--55:before {
+  animation: rota1-55 0.8s forwards; }
+
+.donut--55:after {
+  animation: rota2-55 0.08s forwards 0.8s; }
+
+@keyframes rota1-55 {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(180deg); } }
+@keyframes rota2-55 {
+  0% {
+    transform: rotate(180deg);
+    opacity: 1; }
+  100% {
+    transform: rotate(198deg);
+    opacity: 1; } }
+.donut--56:before {
+  animation: rota1-56 0.8s forwards; }
+
+.donut--56:after {
+  animation: rota2-56 0.096s forwards 0.8s; }
+
+@keyframes rota1-56 {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(180deg); } }
+@keyframes rota2-56 {
+  0% {
+    transform: rotate(180deg);
+    opacity: 1; }
+  100% {
+    transform: rotate(201.6deg);
+    opacity: 1; } }
+.donut--57:before {
+  animation: rota1-57 0.8s forwards; }
+
+.donut--57:after {
+  animation: rota2-57 0.112s forwards 0.8s; }
+
+@keyframes rota1-57 {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(180deg); } }
+@keyframes rota2-57 {
+  0% {
+    transform: rotate(180deg);
+    opacity: 1; }
+  100% {
+    transform: rotate(205.2deg);
+    opacity: 1; } }
+.donut--58:before {
+  animation: rota1-58 0.8s forwards; }
+
+.donut--58:after {
+  animation: rota2-58 0.128s forwards 0.8s; }
+
+@keyframes rota1-58 {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(180deg); } }
+@keyframes rota2-58 {
+  0% {
+    transform: rotate(180deg);
+    opacity: 1; }
+  100% {
+    transform: rotate(208.8deg);
+    opacity: 1; } }
+.donut--59:before {
+  animation: rota1-59 0.8s forwards; }
+
+.donut--59:after {
+  animation: rota2-59 0.144s forwards 0.8s; }
+
+@keyframes rota1-59 {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(180deg); } }
+@keyframes rota2-59 {
+  0% {
+    transform: rotate(180deg);
+    opacity: 1; }
+  100% {
+    transform: rotate(212.4deg);
+    opacity: 1; } }
+.donut--60:before {
+  animation: rota1-60 0.8s forwards; }
+
+.donut--60:after {
+  animation: rota2-60 0.16s forwards 0.8s; }
+
+@keyframes rota1-60 {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(180deg); } }
+@keyframes rota2-60 {
+  0% {
+    transform: rotate(180deg);
+    opacity: 1; }
+  100% {
+    transform: rotate(216deg);
+    opacity: 1; } }
+.donut--61:before {
+  animation: rota1-61 0.8s forwards; }
+
+.donut--61:after {
+  animation: rota2-61 0.176s forwards 0.8s; }
+
+@keyframes rota1-61 {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(180deg); } }
+@keyframes rota2-61 {
+  0% {
+    transform: rotate(180deg);
+    opacity: 1; }
+  100% {
+    transform: rotate(219.6deg);
+    opacity: 1; } }
+.donut--62:before {
+  animation: rota1-62 0.8s forwards; }
+
+.donut--62:after {
+  animation: rota2-62 0.192s forwards 0.8s; }
+
+@keyframes rota1-62 {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(180deg); } }
+@keyframes rota2-62 {
+  0% {
+    transform: rotate(180deg);
+    opacity: 1; }
+  100% {
+    transform: rotate(223.2deg);
+    opacity: 1; } }
+.donut--63:before {
+  animation: rota1-63 0.8s forwards; }
+
+.donut--63:after {
+  animation: rota2-63 0.208s forwards 0.8s; }
+
+@keyframes rota1-63 {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(180deg); } }
+@keyframes rota2-63 {
+  0% {
+    transform: rotate(180deg);
+    opacity: 1; }
+  100% {
+    transform: rotate(226.8deg);
+    opacity: 1; } }
+.donut--64:before {
+  animation: rota1-64 0.8s forwards; }
+
+.donut--64:after {
+  animation: rota2-64 0.224s forwards 0.8s; }
+
+@keyframes rota1-64 {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(180deg); } }
+@keyframes rota2-64 {
+  0% {
+    transform: rotate(180deg);
+    opacity: 1; }
+  100% {
+    transform: rotate(230.4deg);
+    opacity: 1; } }
+.donut--65:before {
+  animation: rota1-65 0.8s forwards; }
+
+.donut--65:after {
+  animation: rota2-65 0.24s forwards 0.8s; }
+
+@keyframes rota1-65 {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(180deg); } }
+@keyframes rota2-65 {
+  0% {
+    transform: rotate(180deg);
+    opacity: 1; }
+  100% {
+    transform: rotate(234deg);
+    opacity: 1; } }
+.donut--66:before {
+  animation: rota1-66 0.8s forwards; }
+
+.donut--66:after {
+  animation: rota2-66 0.256s forwards 0.8s; }
+
+@keyframes rota1-66 {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(180deg); } }
+@keyframes rota2-66 {
+  0% {
+    transform: rotate(180deg);
+    opacity: 1; }
+  100% {
+    transform: rotate(237.6deg);
+    opacity: 1; } }
+.donut--67:before {
+  animation: rota1-67 0.8s forwards; }
+
+.donut--67:after {
+  animation: rota2-67 0.272s forwards 0.8s; }
+
+@keyframes rota1-67 {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(180deg); } }
+@keyframes rota2-67 {
+  0% {
+    transform: rotate(180deg);
+    opacity: 1; }
+  100% {
+    transform: rotate(241.2deg);
+    opacity: 1; } }
+.donut--68:before {
+  animation: rota1-68 0.8s forwards; }
+
+.donut--68:after {
+  animation: rota2-68 0.288s forwards 0.8s; }
+
+@keyframes rota1-68 {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(180deg); } }
+@keyframes rota2-68 {
+  0% {
+    transform: rotate(180deg);
+    opacity: 1; }
+  100% {
+    transform: rotate(244.8deg);
+    opacity: 1; } }
+.donut--69:before {
+  animation: rota1-69 0.8s forwards; }
+
+.donut--69:after {
+  animation: rota2-69 0.304s forwards 0.8s; }
+
+@keyframes rota1-69 {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(180deg); } }
+@keyframes rota2-69 {
+  0% {
+    transform: rotate(180deg);
+    opacity: 1; }
+  100% {
+    transform: rotate(248.4deg);
+    opacity: 1; } }
+.donut--70:before {
+  animation: rota1-70 0.8s forwards; }
+
+.donut--70:after {
+  animation: rota2-70 0.32s forwards 0.8s; }
+
+@keyframes rota1-70 {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(180deg); } }
+@keyframes rota2-70 {
+  0% {
+    transform: rotate(180deg);
+    opacity: 1; }
+  100% {
+    transform: rotate(252deg);
+    opacity: 1; } }
+.donut--71:before {
+  animation: rota1-71 0.8s forwards; }
+
+.donut--71:after {
+  animation: rota2-71 0.336s forwards 0.8s; }
+
+@keyframes rota1-71 {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(180deg); } }
+@keyframes rota2-71 {
+  0% {
+    transform: rotate(180deg);
+    opacity: 1; }
+  100% {
+    transform: rotate(255.6deg);
+    opacity: 1; } }
+.donut--72:before {
+  animation: rota1-72 0.8s forwards; }
+
+.donut--72:after {
+  animation: rota2-72 0.352s forwards 0.8s; }
+
+@keyframes rota1-72 {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(180deg); } }
+@keyframes rota2-72 {
+  0% {
+    transform: rotate(180deg);
+    opacity: 1; }
+  100% {
+    transform: rotate(259.2deg);
+    opacity: 1; } }
+.donut--73:before {
+  animation: rota1-73 0.8s forwards; }
+
+.donut--73:after {
+  animation: rota2-73 0.368s forwards 0.8s; }
+
+@keyframes rota1-73 {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(180deg); } }
+@keyframes rota2-73 {
+  0% {
+    transform: rotate(180deg);
+    opacity: 1; }
+  100% {
+    transform: rotate(262.8deg);
+    opacity: 1; } }
+.donut--74:before {
+  animation: rota1-74 0.8s forwards; }
+
+.donut--74:after {
+  animation: rota2-74 0.384s forwards 0.8s; }
+
+@keyframes rota1-74 {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(180deg); } }
+@keyframes rota2-74 {
+  0% {
+    transform: rotate(180deg);
+    opacity: 1; }
+  100% {
+    transform: rotate(266.4deg);
+    opacity: 1; } }
+.donut--75:before {
+  animation: rota1-75 0.8s forwards; }
+
+.donut--75:after {
+  animation: rota2-75 0.4s forwards 0.8s; }
+
+@keyframes rota1-75 {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(180deg); } }
+@keyframes rota2-75 {
+  0% {
+    transform: rotate(180deg);
+    opacity: 1; }
+  100% {
+    transform: rotate(270deg);
+    opacity: 1; } }
+.donut--76:before {
+  animation: rota1-76 0.8s forwards; }
+
+.donut--76:after {
+  animation: rota2-76 0.416s forwards 0.8s; }
+
+@keyframes rota1-76 {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(180deg); } }
+@keyframes rota2-76 {
+  0% {
+    transform: rotate(180deg);
+    opacity: 1; }
+  100% {
+    transform: rotate(273.6deg);
+    opacity: 1; } }
+.donut--77:before {
+  animation: rota1-77 0.8s forwards; }
+
+.donut--77:after {
+  animation: rota2-77 0.432s forwards 0.8s; }
+
+@keyframes rota1-77 {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(180deg); } }
+@keyframes rota2-77 {
+  0% {
+    transform: rotate(180deg);
+    opacity: 1; }
+  100% {
+    transform: rotate(277.2deg);
+    opacity: 1; } }
+.donut--78:before {
+  animation: rota1-78 0.8s forwards; }
+
+.donut--78:after {
+  animation: rota2-78 0.448s forwards 0.8s; }
+
+@keyframes rota1-78 {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(180deg); } }
+@keyframes rota2-78 {
+  0% {
+    transform: rotate(180deg);
+    opacity: 1; }
+  100% {
+    transform: rotate(280.8deg);
+    opacity: 1; } }
+.donut--79:before {
+  animation: rota1-79 0.8s forwards; }
+
+.donut--79:after {
+  animation: rota2-79 0.464s forwards 0.8s; }
+
+@keyframes rota1-79 {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(180deg); } }
+@keyframes rota2-79 {
+  0% {
+    transform: rotate(180deg);
+    opacity: 1; }
+  100% {
+    transform: rotate(284.4deg);
+    opacity: 1; } }
+.donut--80:before {
+  animation: rota1-80 0.8s forwards; }
+
+.donut--80:after {
+  animation: rota2-80 0.48s forwards 0.8s; }
+
+@keyframes rota1-80 {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(180deg); } }
+@keyframes rota2-80 {
+  0% {
+    transform: rotate(180deg);
+    opacity: 1; }
+  100% {
+    transform: rotate(288deg);
+    opacity: 1; } }
+.donut--81:before {
+  animation: rota1-81 0.8s forwards; }
+
+.donut--81:after {
+  animation: rota2-81 0.496s forwards 0.8s; }
+
+@keyframes rota1-81 {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(180deg); } }
+@keyframes rota2-81 {
+  0% {
+    transform: rotate(180deg);
+    opacity: 1; }
+  100% {
+    transform: rotate(291.6deg);
+    opacity: 1; } }
+.donut--82:before {
+  animation: rota1-82 0.8s forwards; }
+
+.donut--82:after {
+  animation: rota2-82 0.512s forwards 0.8s; }
+
+@keyframes rota1-82 {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(180deg); } }
+@keyframes rota2-82 {
+  0% {
+    transform: rotate(180deg);
+    opacity: 1; }
+  100% {
+    transform: rotate(295.2deg);
+    opacity: 1; } }
+.donut--83:before {
+  animation: rota1-83 0.8s forwards; }
+
+.donut--83:after {
+  animation: rota2-83 0.528s forwards 0.8s; }
+
+@keyframes rota1-83 {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(180deg); } }
+@keyframes rota2-83 {
+  0% {
+    transform: rotate(180deg);
+    opacity: 1; }
+  100% {
+    transform: rotate(298.8deg);
+    opacity: 1; } }
+.donut--84:before {
+  animation: rota1-84 0.8s forwards; }
+
+.donut--84:after {
+  animation: rota2-84 0.544s forwards 0.8s; }
+
+@keyframes rota1-84 {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(180deg); } }
+@keyframes rota2-84 {
+  0% {
+    transform: rotate(180deg);
+    opacity: 1; }
+  100% {
+    transform: rotate(302.4deg);
+    opacity: 1; } }
+.donut--85:before {
+  animation: rota1-85 0.8s forwards; }
+
+.donut--85:after {
+  animation: rota2-85 0.56s forwards 0.8s; }
+
+@keyframes rota1-85 {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(180deg); } }
+@keyframes rota2-85 {
+  0% {
+    transform: rotate(180deg);
+    opacity: 1; }
+  100% {
+    transform: rotate(306deg);
+    opacity: 1; } }
+.donut--86:before {
+  animation: rota1-86 0.8s forwards; }
+
+.donut--86:after {
+  animation: rota2-86 0.576s forwards 0.8s; }
+
+@keyframes rota1-86 {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(180deg); } }
+@keyframes rota2-86 {
+  0% {
+    transform: rotate(180deg);
+    opacity: 1; }
+  100% {
+    transform: rotate(309.6deg);
+    opacity: 1; } }
+.donut--87:before {
+  animation: rota1-87 0.8s forwards; }
+
+.donut--87:after {
+  animation: rota2-87 0.592s forwards 0.8s; }
+
+@keyframes rota1-87 {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(180deg); } }
+@keyframes rota2-87 {
+  0% {
+    transform: rotate(180deg);
+    opacity: 1; }
+  100% {
+    transform: rotate(313.2deg);
+    opacity: 1; } }
+.donut--88:before {
+  animation: rota1-88 0.8s forwards; }
+
+.donut--88:after {
+  animation: rota2-88 0.608s forwards 0.8s; }
+
+@keyframes rota1-88 {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(180deg); } }
+@keyframes rota2-88 {
+  0% {
+    transform: rotate(180deg);
+    opacity: 1; }
+  100% {
+    transform: rotate(316.8deg);
+    opacity: 1; } }
+.donut--89:before {
+  animation: rota1-89 0.8s forwards; }
+
+.donut--89:after {
+  animation: rota2-89 0.624s forwards 0.8s; }
+
+@keyframes rota1-89 {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(180deg); } }
+@keyframes rota2-89 {
+  0% {
+    transform: rotate(180deg);
+    opacity: 1; }
+  100% {
+    transform: rotate(320.4deg);
+    opacity: 1; } }
+.donut--90:before {
+  animation: rota1-90 0.8s forwards; }
+
+.donut--90:after {
+  animation: rota2-90 0.64s forwards 0.8s; }
+
+@keyframes rota1-90 {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(180deg); } }
+@keyframes rota2-90 {
+  0% {
+    transform: rotate(180deg);
+    opacity: 1; }
+  100% {
+    transform: rotate(324deg);
+    opacity: 1; } }
+.donut--91:before {
+  animation: rota1-91 0.8s forwards; }
+
+.donut--91:after {
+  animation: rota2-91 0.656s forwards 0.8s; }
+
+@keyframes rota1-91 {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(180deg); } }
+@keyframes rota2-91 {
+  0% {
+    transform: rotate(180deg);
+    opacity: 1; }
+  100% {
+    transform: rotate(327.6deg);
+    opacity: 1; } }
+.donut--92:before {
+  animation: rota1-92 0.8s forwards; }
+
+.donut--92:after {
+  animation: rota2-92 0.672s forwards 0.8s; }
+
+@keyframes rota1-92 {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(180deg); } }
+@keyframes rota2-92 {
+  0% {
+    transform: rotate(180deg);
+    opacity: 1; }
+  100% {
+    transform: rotate(331.2deg);
+    opacity: 1; } }
+.donut--93:before {
+  animation: rota1-93 0.8s forwards; }
+
+.donut--93:after {
+  animation: rota2-93 0.688s forwards 0.8s; }
+
+@keyframes rota1-93 {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(180deg); } }
+@keyframes rota2-93 {
+  0% {
+    transform: rotate(180deg);
+    opacity: 1; }
+  100% {
+    transform: rotate(334.8deg);
+    opacity: 1; } }
+.donut--94:before {
+  animation: rota1-94 0.8s forwards; }
+
+.donut--94:after {
+  animation: rota2-94 0.704s forwards 0.8s; }
+
+@keyframes rota1-94 {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(180deg); } }
+@keyframes rota2-94 {
+  0% {
+    transform: rotate(180deg);
+    opacity: 1; }
+  100% {
+    transform: rotate(338.4deg);
+    opacity: 1; } }
+.donut--95:before {
+  animation: rota1-95 0.8s forwards; }
+
+.donut--95:after {
+  animation: rota2-95 0.72s forwards 0.8s; }
+
+@keyframes rota1-95 {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(180deg); } }
+@keyframes rota2-95 {
+  0% {
+    transform: rotate(180deg);
+    opacity: 1; }
+  100% {
+    transform: rotate(342deg);
+    opacity: 1; } }
+.donut--96:before {
+  animation: rota1-96 0.8s forwards; }
+
+.donut--96:after {
+  animation: rota2-96 0.736s forwards 0.8s; }
+
+@keyframes rota1-96 {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(180deg); } }
+@keyframes rota2-96 {
+  0% {
+    transform: rotate(180deg);
+    opacity: 1; }
+  100% {
+    transform: rotate(345.6deg);
+    opacity: 1; } }
+.donut--97:before {
+  animation: rota1-97 0.8s forwards; }
+
+.donut--97:after {
+  animation: rota2-97 0.752s forwards 0.8s; }
+
+@keyframes rota1-97 {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(180deg); } }
+@keyframes rota2-97 {
+  0% {
+    transform: rotate(180deg);
+    opacity: 1; }
+  100% {
+    transform: rotate(349.2deg);
+    opacity: 1; } }
+.donut--98:before {
+  animation: rota1-98 0.8s forwards; }
+
+.donut--98:after {
+  animation: rota2-98 0.768s forwards 0.8s; }
+
+@keyframes rota1-98 {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(180deg); } }
+@keyframes rota2-98 {
+  0% {
+    transform: rotate(180deg);
+    opacity: 1; }
+  100% {
+    transform: rotate(352.8deg);
+    opacity: 1; } }
+.donut--99:before {
+  animation: rota1-99 0.8s forwards; }
+
+.donut--99:after {
+  animation: rota2-99 0.784s forwards 0.8s; }
+
+@keyframes rota1-99 {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(180deg); } }
+@keyframes rota2-99 {
+  0% {
+    transform: rotate(180deg);
+    opacity: 1; }
+  100% {
+    transform: rotate(356.4deg);
+    opacity: 1; } }
+.donut--100:before {
+  animation: rota1-100 0.8s forwards; }
+
+.donut--100:after {
+  animation: rota2-100 0.8s forwards 0.8s; }
+
+@keyframes rota1-100 {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(180deg); } }
+@keyframes rota2-100 {
+  0% {
+    transform: rotate(180deg);
+    opacity: 1; }
+  100% {
+    transform: rotate(360deg);
+    opacity: 1; } }
+.quick-turnaround {
+  background-image: url(../images/bg-quick-turnaround.png);
+  -webkit-background-size: cover;
+  background-size: cover;
+  display: inline-block;
+  width: 100%;
+  height: 670px; }
+
+.quick-turnaround-content {
+  width: 84%;
+  margin: 0 auto; }
+
+.slide1 {
+  background-image: url(../images/slides/slide1.png);
+  -webkit-background-size: contain;
+  background-size: contain;
+  display: inline-block;
+  width: 100%; }
+
+.quick-turnaround-content > div {
+  display: inline-block;
+  width: 33%;
+  text-align: center; }
+
+h2 {
+  text-align: center;
+  font-family: 'TGSharpSans-Bold';
+  font-size: 70px;
+  color: #ffffff; }
+
+.quick-turnaround h2 {
+  margin: 35px 0 60px 0; }
+
+p {
+  font-family: 'TGSharpSans-Medium';
+  color: white; }
+
+.quick-turnaround-content p {
+  margin: 30px 0 0 30px;
+  font-size: 28px; }
+
+.quick-turnaround-bottom-text {
+  text-align: center;
+  margin: 90px 0 0 0;
+  display: inline-block;
+  width: 100%;
+  font-size: 20px;
+  font-family: 'TGSharpSans-Medium';
+  color: white; }
+
+.img-turnaround-question {
+  margin: 0 auto; }
+
+.printing-category-top {
+  background: #f4f4f4;
+  padding-top: 9%;
+  max-height: 1230px;
+  padding-bottom: 36%; }
+
+.printing-category-top h2, .printing-category-top p {
+  color: #4e4e4f;
+  text-align: center; }
+
+.printing-category-top h2 {
+  font-size: 64px;
+  letter-spacing: 4px; }
+
+.printing-category-top p {
+  font-size: 29px;
+  margin: 69px 0 0 0;
+  letter-spacing: 1px; }
+
+.printing-category-top-circles > div {
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 25px; }
+
+.printing-category-top-circles {
+  text-align: center;
+  margin: 7.7% 0 0 0; }
+
+.printing-category-top-circles p {
+  margin: 25px 0 0 0;
+  font-family: 'TGSharpSans-Semibold';
+  font-size: 25px; }
+
+.col-6 {
+  display: inline-block;
+  width: 50%;
+  float: left; }
+
+.row {
+  display: inline-block;
+  width: 100%;
+  float: left; }
+
+.printing-category-grid {
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1400px;
+  margin-top: -13.4%;
+  background: white; }
+
+.printing-category-grid-content {
+  display: inline-block;
+  margin: 0 auto;
+  margin-top: 22%; }
+
+.printing-category-grid-content img {
+  margin: 0 auto;
+  margin-bottom: 60px; }
+
+.printing-category-grid .col-6 {
+  background: #fff;
+  max-height: 700px;
+  padding-bottom: 15%; }
+
+.printing-category-grid-content .red {
+  color: #ea3624;
+  font-size: 33px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  font-family: 'TGSharpSans-Bold';
+  letter-spacing: 2px; }
+
+.printing-category-grid-content .white {
+  color: white;
+  font-size: 33px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  letter-spacing: 2px; }
+
+.printing-category-grid-content .descr {
+  color: #4e4e4f;
+  font-size: 21px;
+  letter-spacing: 1px;
+  margin-top: 20px; }
+
+.printing-category-grid-container {
+  display: inline-block;
+  float: left;
+  border-top: 1px solid #7d7d7d;
+  border-bottom: 1px solid #7d7d7d; }
+
+.printing-category-grid .bg-aqua {
+  background: #2dccd3; }
+
+.printing-category-grid .bg-yellow {
+  background: #f2ca19; }
+
+.printing-category-grid .bg-grey {
+  background: #e4e4e4; }
+
+.printing-category-grid-content .cat {
+  color: #888b8d;
+  font-family: 'TGSharpSans-Semibold';
+  font-size: 24px;
+  letter-spacing: 1px;
+  margin-bottom: 0; }
 
 /*# sourceMappingURL=tendergreens.css.map */

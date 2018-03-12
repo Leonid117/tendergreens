@@ -246,10 +246,14 @@
 
         <block type="core/text_list" name="content" as="content" translate="label">
             <label>Main Content Area</label>
-            <block type="page/html" name="main_slider" as="main-slider" translate="label" template="page/html/slider.phtml">
-                <label>Content Area</label>
-            </block>
+            <!--<block type="core/template" name="tender-greens-content" as="tender-greens-content" translate="label" template="page/html/tender-greens-content.phtml">-->
+                <!--<label>Main Content Area</label>-->
+                <!--<block type="page/html" name="main_slider" as="main-slider" translate="label" template="page/html/slider.phtml">-->
+                    <!--<label>Content Area</label>-->
+                <!--</block>-->
+            <!--</block>-->
         </block>
+
     </block>
     </default>
 
