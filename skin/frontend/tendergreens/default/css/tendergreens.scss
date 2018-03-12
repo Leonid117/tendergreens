@@ -1,6 +1,9 @@
+$red-color: #ea3624;
+$light-grey-color: #888b8d;
+
 .page-header-container{
-  background: red !important;
-  min-height: 115px;
+  height: 115px;
+  z-index: 2;
 }
 .tenger-greens-wrapper{
   max-width: 1920px;
@@ -11,6 +14,7 @@
 $bar-width: 45px;
 $bar-height: 4px;
 $bar-spacing: 12px;
+
 
 .hamburger-menu {
   margin: auto;
@@ -30,7 +34,7 @@ $bar-spacing: 12px;
 .bar {
   position: relative;
   transform: translateY($bar-spacing);
-  background: rgba(255, 255, 255, 1);
+  background: $red-color;
   transition: all 0ms 300ms;
 
   &.animate {
@@ -43,7 +47,7 @@ $bar-spacing: 12px;
   position: absolute;
   left: 0;
   bottom: $bar-spacing;
-  background: rgba(255, 255, 255, 1);
+  background:$red-color;
   transition: bottom 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 300ms cubic-bezier(0.23, 1, 0.32, 1);
 }
 
@@ -52,7 +56,7 @@ $bar-spacing: 12px;
   position: absolute;
   left: 0;
   top: $bar-spacing;
-  background: rgba(255, 255, 255, 1);
+  background: $red-color;
   transition: top 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 300ms cubic-bezier(0.23, 1, 0.32, 1);
 }
 
@@ -85,13 +89,145 @@ $bar-spacing: 12px;
   vertical-align: top;
 }
 .tg-header-right{
+  padding: 10px 75px 0 0;
   float: right;
 }
-.tg-logo .logo {
+.tg-logo{
+  margin-left: 8px;
+}
+.tg-logo .logo{
   max-width: 330px;
-  margin: 0 auto;
+  margin: 32px auto 0 auto;
   float: none;
 }
 .tg-logo .logo img{
   margin: 0 auto;
 }
+.hide{
+  display: none !important;
+}
+.tg-search{
+  margin: 20px 0 0 0;
+  float: right;
+}
+.tg-header-right-container{
+  width: 310px;
+  float: right;
+}
+.tg-header-right-container > div{
+  display: inline-block;
+}
+.tg-login{
+  text-transform: uppercase;
+  vertical-align: top;
+  margin: 35px 0 0 0;
+}
+a{
+  color: $light-grey-color;
+}
+.tg-header-minicart{
+  background: $red-color;
+  width: 140px;
+  margin: 22px 0 0 20px;
+  height: 50px;
+  border-radius: 30px;
+  color: white;
+  font-weight: 900;
+  text-align: left;
+  padding: 0 7px 0 10px;
+}
+.tg-header-minicart .label{
+  padding: 3px 0 0 15px;
+  display: inline-block;
+}
+.tg-header-minicart .count{
+  background: white;
+  float: right;
+  margin: 6px 0 0 0;
+  width: 37px;
+  height: 37px;
+  border-radius: 60px;
+  line-height: 37px;
+  color: $red-color;
+}
+.skip-cart .count:before, .skip-cart .count:after{
+  display: none;
+}
+.skip-cart.no-count .count {
+  display: inline-block;
+}
+.search-icon{
+  cursor: pointer;
+}
+
+//Main-page slider******************************************************************************************************
+
+.jssorl-009-spin img {
+  animation-name: jssorl-009-spin;
+  animation-duration: 1.6s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes jssorl-009-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+/*jssor slider bullet skin 032 css*/
+.jssorb032 {position:absolute;}
+.jssorb032 .i {position:absolute;cursor:pointer;}
+.jssorb032 .i .b {fill:#fff;fill-opacity:0.7;stroke:#000;stroke-width:1200;stroke-miterlimit:10;stroke-opacity:0.25;}
+.jssorb032 .i:hover .b {fill:#000;fill-opacity:.6;stroke:#fff;stroke-opacity:.35;}
+.jssorb032 .iav .b {fill:#000;fill-opacity:1;stroke:#fff;stroke-opacity:.35;}
+.jssorb032 .i.idn {opacity:.3;}
+
+/*jssor slider arrow skin 051 css*/
+.jssora051 {display:block;position:absolute;cursor:pointer;}
+.jssora051 .a {fill:none;stroke:#fff;stroke-width:360;stroke-miterlimit:10;}
+.jssora051:hover {opacity:.8;}
+.jssora051.jssora051dn {opacity:.5;}
+.jssora051.jssora051ds {opacity:.3;pointer-events:none;}
+
+//END Main-page slider**************************************************************************************************
+
+.col-main{
+  width: 100%;
+  padding:0;
+}
+.tg-button{}
+.tg-circle{
+  width: 190px;
+  height: 180px;
+  background: #fff;
+  display: block;
+  position: absolute;
+  z-index: 1;
+  margin-left: auto;
+  margin-right: auto;
+  left: 15px;
+  right: 0;
+  border-radius: 50%;
+  top: -32px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

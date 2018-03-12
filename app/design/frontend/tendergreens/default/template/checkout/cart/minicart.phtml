@@ -39,9 +39,8 @@
     }
 ?>
 
-<a href="<?php echo $this->helper('checkout/cart')->getCartUrl(); ?>" data-target-element="#header-cart" class="skip-link skip-cart <?php if($_cartQty <= 0): ?> no-count<?php endif; ?>">
-    <span class="icon"></span>
-    <span class="label"><?php echo $this->__('Cart'); ?></span>
+<a href="<?php echo $this->helper('checkout/cart')->getCartUrl(); ?>" data-target-element="#header-cart" class="tg-header-minicart skip-link skip-cart <?php if($_cartQty <= 0): ?> no-count<?php endif; ?>">
+    <span class="label"><?php echo $this->__('Order'); ?></span>
     <span class="count"><?php echo $_cartQty; ?></span>
 </a>
 
