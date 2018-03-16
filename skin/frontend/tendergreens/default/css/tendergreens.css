@@ -1,3 +1,6 @@
+*:focus {
+  outline: none; }
+
 @font-face {
   font-family: 'TGSharpSans-Black';
   src: url("../fonts/TGSharpSans-Black.ttf") format("truetype"); }
@@ -60,7 +63,7 @@
   src: url("../fonts/TGSharpSans-UltrathinItalic.ttf") format("truetype"); }
 .page-header-container {
   height: 115px;
-  z-index: 2; }
+  z-index: 3; }
 
 .tenger-greens-wrapper {
   max-width: 1920px;
@@ -202,71 +205,6 @@ a {
 .search-icon {
   cursor: pointer; }
 
-.jssorl-009-spin img {
-  animation-name: jssorl-009-spin;
-  animation-duration: 1.6s;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear; }
-
-@keyframes jssorl-009-spin {
-  from {
-    transform: rotate(0deg); }
-  to {
-    transform: rotate(360deg); } }
-/*jssor slider bullet skin 032 css*/
-.jssorb032 {
-  position: absolute; }
-
-.jssorb032 .i {
-  position: absolute;
-  cursor: pointer; }
-
-.jssorb032 .i .b {
-  fill: #fff;
-  fill-opacity: 1;
-  stroke: #fff;
-  stroke-width: 1200;
-  stroke-miterlimit: 10;
-  stroke-opacity: 0.25; }
-
-.jssorb032 .i:hover .b {
-  fill: #fff;
-  stroke: black;
-  stroke-width: 2000;
-  stroke-opacity: .35; }
-
-.jssorb032 .iav .b {
-  fill: #fff;
-  fill-opacity: 1;
-  stroke-opacity: .35;
-  stroke: black;
-  stroke-width: 2000; }
-
-.jssorb032 .i.idn {
-  opacity: .3; }
-
-/*jssor slider arrow skin 051 css*/
-.jssora051 {
-  display: block;
-  position: absolute;
-  cursor: pointer; }
-
-.jssora051 .a {
-  fill: none;
-  stroke: #fff;
-  stroke-width: 360;
-  stroke-miterlimit: 10; }
-
-.jssora051:hover {
-  opacity: .8; }
-
-.jssora051.jssora051dn {
-  opacity: .5; }
-
-.jssora051.jssora051ds {
-  opacity: .3;
-  pointer-events: none; }
-
 .col-main {
   width: 100%;
   padding: 0; }
@@ -277,7 +215,7 @@ a {
   background: #fff;
   display: block;
   position: absolute;
-  z-index: 1;
+  z-index: 2;
   margin-left: auto;
   margin-right: auto;
   left: 15px;
@@ -311,14 +249,32 @@ h6 {
   right: 0;
   top: 23%;
   text-align: center; }
+  .slide-content h1 {
+    font-size: 92px;
+    margin-top: 5%; }
+  .slide-content h6 {
+    margin-top: 2%;
+    font-size: 26px; }
+
+.owl-theme .owl-dots .owl-dot span {
+  width: 23px;
+  height: 24px;
+  margin: 5px 15px;
+  background: #fff; }
 
 .slider button {
   z-index: 1;
   background: transparent;
-  border: 4px solid white;
+  border: 6px solid white;
   color: white;
   text-transform: uppercase;
-  margin-top: 124px; }
+  margin-top: 10%;
+  width: 14.5vw;
+  height: 4.3vw;
+  border-radius: 60px;
+  font-size: 34px;
+  letter-spacing: 1px;
+  max-width: 280px; }
 
 button {
   font-size: 22px;
@@ -326,6 +282,16 @@ button {
   height: 55px;
   border-radius: 30px;
   font-family: 'TGSharpSans-Bold'; }
+
+.store-front {
+  margin-bottom: -10px;
+  margin-top: -37px;
+  display: inline-block;
+  width: 100%;
+  float: left; }
+
+.header {
+  margin-bottom: 30px; }
 
 .donut-count {
   font-family: 'TGSharpSans-Extrabold';
@@ -361,7 +327,7 @@ button {
     z-index: 2;
     border-right: none; }
   .donut:after {
-    border-left: none;
+    border-right: none;
     z-index: 3;
     transform: rotate(180deg);
     opacity: 0; }
@@ -396,7 +362,7 @@ button {
       z-index: 1; }
 
 .donut--1:before {
-  animation: rota1-1 0.8s forwards; }
+  animation: rota1-1 2.8s forwards; }
 
 @keyframes rota1-1 {
   0% {
@@ -404,7 +370,7 @@ button {
   100% {
     transform: rotate(3.6deg); } }
 .donut--2:before {
-  animation: rota1-2 0.8s forwards; }
+  animation: rota1-2 2.8s forwards; }
 
 @keyframes rota1-2 {
   0% {
@@ -412,7 +378,7 @@ button {
   100% {
     transform: rotate(7.2deg); } }
 .donut--3:before {
-  animation: rota1-3 0.8s forwards; }
+  animation: rota1-3 2.8s forwards; }
 
 @keyframes rota1-3 {
   0% {
@@ -420,7 +386,7 @@ button {
   100% {
     transform: rotate(10.8deg); } }
 .donut--4:before {
-  animation: rota1-4 0.8s forwards; }
+  animation: rota1-4 2.8s forwards; }
 
 @keyframes rota1-4 {
   0% {
@@ -428,7 +394,7 @@ button {
   100% {
     transform: rotate(14.4deg); } }
 .donut--5:before {
-  animation: rota1-5 0.8s forwards; }
+  animation: rota1-5 2.8s forwards; }
 
 @keyframes rota1-5 {
   0% {
@@ -436,7 +402,7 @@ button {
   100% {
     transform: rotate(18deg); } }
 .donut--6:before {
-  animation: rota1-6 0.8s forwards; }
+  animation: rota1-6 2.8s forwards; }
 
 @keyframes rota1-6 {
   0% {
@@ -444,7 +410,7 @@ button {
   100% {
     transform: rotate(21.6deg); } }
 .donut--7:before {
-  animation: rota1-7 0.8s forwards; }
+  animation: rota1-7 2.8s forwards; }
 
 @keyframes rota1-7 {
   0% {
@@ -452,7 +418,7 @@ button {
   100% {
     transform: rotate(25.2deg); } }
 .donut--8:before {
-  animation: rota1-8 0.8s forwards; }
+  animation: rota1-8 2.8s forwards; }
 
 @keyframes rota1-8 {
   0% {
@@ -460,7 +426,7 @@ button {
   100% {
     transform: rotate(28.8deg); } }
 .donut--9:before {
-  animation: rota1-9 0.8s forwards; }
+  animation: rota1-9 2.8s forwards; }
 
 @keyframes rota1-9 {
   0% {
@@ -468,7 +434,7 @@ button {
   100% {
     transform: rotate(32.4deg); } }
 .donut--10:before {
-  animation: rota1-10 0.8s forwards; }
+  animation: rota1-10 2.8s forwards; }
 
 @keyframes rota1-10 {
   0% {
@@ -476,7 +442,7 @@ button {
   100% {
     transform: rotate(36deg); } }
 .donut--11:before {
-  animation: rota1-11 0.8s forwards; }
+  animation: rota1-11 2.8s forwards; }
 
 @keyframes rota1-11 {
   0% {
@@ -484,7 +450,7 @@ button {
   100% {
     transform: rotate(39.6deg); } }
 .donut--12:before {
-  animation: rota1-12 0.8s forwards; }
+  animation: rota1-12 2.8s forwards; }
 
 @keyframes rota1-12 {
   0% {
@@ -492,7 +458,7 @@ button {
   100% {
     transform: rotate(43.2deg); } }
 .donut--13:before {
-  animation: rota1-13 0.8s forwards; }
+  animation: rota1-13 2.8s forwards; }
 
 @keyframes rota1-13 {
   0% {
@@ -500,7 +466,7 @@ button {
   100% {
     transform: rotate(46.8deg); } }
 .donut--14:before {
-  animation: rota1-14 0.8s forwards; }
+  animation: rota1-14 2.8s forwards; }
 
 @keyframes rota1-14 {
   0% {
@@ -508,7 +474,7 @@ button {
   100% {
     transform: rotate(50.4deg); } }
 .donut--15:before {
-  animation: rota1-15 0.8s forwards; }
+  animation: rota1-15 2.8s forwards; }
 
 @keyframes rota1-15 {
   0% {
@@ -516,7 +482,7 @@ button {
   100% {
     transform: rotate(54deg); } }
 .donut--16:before {
-  animation: rota1-16 0.8s forwards; }
+  animation: rota1-16 2.8s forwards; }
 
 @keyframes rota1-16 {
   0% {
@@ -524,7 +490,7 @@ button {
   100% {
     transform: rotate(57.6deg); } }
 .donut--17:before {
-  animation: rota1-17 0.8s forwards; }
+  animation: rota1-17 2.8s forwards; }
 
 @keyframes rota1-17 {
   0% {
@@ -532,7 +498,7 @@ button {
   100% {
     transform: rotate(61.2deg); } }
 .donut--18:before {
-  animation: rota1-18 0.8s forwards; }
+  animation: rota1-18 2.8s forwards; }
 
 @keyframes rota1-18 {
   0% {
@@ -540,7 +506,7 @@ button {
   100% {
     transform: rotate(64.8deg); } }
 .donut--19:before {
-  animation: rota1-19 0.8s forwards; }
+  animation: rota1-19 2.8s forwards; }
 
 @keyframes rota1-19 {
   0% {
@@ -548,7 +514,7 @@ button {
   100% {
     transform: rotate(68.4deg); } }
 .donut--20:before {
-  animation: rota1-20 0.8s forwards; }
+  animation: rota1-20 2.8s forwards; }
 
 @keyframes rota1-20 {
   0% {
@@ -556,7 +522,7 @@ button {
   100% {
     transform: rotate(72deg); } }
 .donut--21:before {
-  animation: rota1-21 0.8s forwards; }
+  animation: rota1-21 2.8s forwards; }
 
 @keyframes rota1-21 {
   0% {
@@ -564,7 +530,7 @@ button {
   100% {
     transform: rotate(75.6deg); } }
 .donut--22:before {
-  animation: rota1-22 0.8s forwards; }
+  animation: rota1-22 2.8s forwards; }
 
 @keyframes rota1-22 {
   0% {
@@ -572,7 +538,7 @@ button {
   100% {
     transform: rotate(79.2deg); } }
 .donut--23:before {
-  animation: rota1-23 0.8s forwards; }
+  animation: rota1-23 2.8s forwards; }
 
 @keyframes rota1-23 {
   0% {
@@ -580,7 +546,7 @@ button {
   100% {
     transform: rotate(82.8deg); } }
 .donut--24:before {
-  animation: rota1-24 0.8s forwards; }
+  animation: rota1-24 2.8s forwards; }
 
 @keyframes rota1-24 {
   0% {
@@ -588,7 +554,7 @@ button {
   100% {
     transform: rotate(86.4deg); } }
 .donut--25:before {
-  animation: rota1-25 0.8s forwards; }
+  animation: rota1-25 2.8s forwards; }
 
 @keyframes rota1-25 {
   0% {
@@ -596,7 +562,7 @@ button {
   100% {
     transform: rotate(90deg); } }
 .donut--26:before {
-  animation: rota1-26 0.8s forwards; }
+  animation: rota1-26 2.8s forwards; }
 
 @keyframes rota1-26 {
   0% {
@@ -604,7 +570,7 @@ button {
   100% {
     transform: rotate(93.6deg); } }
 .donut--27:before {
-  animation: rota1-27 0.8s forwards; }
+  animation: rota1-27 2.8s forwards; }
 
 @keyframes rota1-27 {
   0% {
@@ -612,7 +578,7 @@ button {
   100% {
     transform: rotate(97.2deg); } }
 .donut--28:before {
-  animation: rota1-28 0.8s forwards; }
+  animation: rota1-28 2.8s forwards; }
 
 @keyframes rota1-28 {
   0% {
@@ -620,7 +586,7 @@ button {
   100% {
     transform: rotate(100.8deg); } }
 .donut--29:before {
-  animation: rota1-29 0.8s forwards; }
+  animation: rota1-29 2.8s forwards; }
 
 @keyframes rota1-29 {
   0% {
@@ -628,7 +594,7 @@ button {
   100% {
     transform: rotate(104.4deg); } }
 .donut--30:before {
-  animation: rota1-30 0.8s forwards; }
+  animation: rota1-30 2.8s forwards; }
 
 @keyframes rota1-30 {
   0% {
@@ -636,7 +602,7 @@ button {
   100% {
     transform: rotate(108deg); } }
 .donut--31:before {
-  animation: rota1-31 0.8s forwards; }
+  animation: rota1-31 2.8s forwards; }
 
 @keyframes rota1-31 {
   0% {
@@ -644,7 +610,7 @@ button {
   100% {
     transform: rotate(111.6deg); } }
 .donut--32:before {
-  animation: rota1-32 0.8s forwards; }
+  animation: rota1-32 2.8s forwards; }
 
 @keyframes rota1-32 {
   0% {
@@ -652,7 +618,7 @@ button {
   100% {
     transform: rotate(115.2deg); } }
 .donut--33:before {
-  animation: rota1-33 0.8s forwards; }
+  animation: rota1-33 2.8s forwards; }
 
 @keyframes rota1-33 {
   0% {
@@ -660,7 +626,7 @@ button {
   100% {
     transform: rotate(118.8deg); } }
 .donut--34:before {
-  animation: rota1-34 0.8s forwards; }
+  animation: rota1-34 2.8s forwards; }
 
 @keyframes rota1-34 {
   0% {
@@ -668,7 +634,7 @@ button {
   100% {
     transform: rotate(122.4deg); } }
 .donut--35:before {
-  animation: rota1-35 0.8s forwards; }
+  animation: rota1-35 2.8s forwards; }
 
 @keyframes rota1-35 {
   0% {
@@ -676,7 +642,7 @@ button {
   100% {
     transform: rotate(126deg); } }
 .donut--36:before {
-  animation: rota1-36 0.8s forwards; }
+  animation: rota1-36 2.8s forwards; }
 
 @keyframes rota1-36 {
   0% {
@@ -684,7 +650,7 @@ button {
   100% {
     transform: rotate(129.6deg); } }
 .donut--37:before {
-  animation: rota1-37 0.8s forwards; }
+  animation: rota1-37 2.8s forwards; }
 
 @keyframes rota1-37 {
   0% {
@@ -692,7 +658,7 @@ button {
   100% {
     transform: rotate(133.2deg); } }
 .donut--38:before {
-  animation: rota1-38 0.8s forwards; }
+  animation: rota1-38 2.8s forwards; }
 
 @keyframes rota1-38 {
   0% {
@@ -700,7 +666,7 @@ button {
   100% {
     transform: rotate(136.8deg); } }
 .donut--39:before {
-  animation: rota1-39 0.8s forwards; }
+  animation: rota1-39 2.8s forwards; }
 
 @keyframes rota1-39 {
   0% {
@@ -708,7 +674,7 @@ button {
   100% {
     transform: rotate(140.4deg); } }
 .donut--40:before {
-  animation: rota1-40 0.8s forwards; }
+  animation: rota1-40 2.8s forwards; }
 
 @keyframes rota1-40 {
   0% {
@@ -716,7 +682,7 @@ button {
   100% {
     transform: rotate(144deg); } }
 .donut--41:before {
-  animation: rota1-41 0.8s forwards; }
+  animation: rota1-41 2.8s forwards; }
 
 @keyframes rota1-41 {
   0% {
@@ -724,7 +690,7 @@ button {
   100% {
     transform: rotate(147.6deg); } }
 .donut--42:before {
-  animation: rota1-42 0.8s forwards; }
+  animation: rota1-42 2.8s forwards; }
 
 @keyframes rota1-42 {
   0% {
@@ -732,7 +698,7 @@ button {
   100% {
     transform: rotate(151.2deg); } }
 .donut--43:before {
-  animation: rota1-43 0.8s forwards; }
+  animation: rota1-43 2.8s forwards; }
 
 @keyframes rota1-43 {
   0% {
@@ -740,7 +706,7 @@ button {
   100% {
     transform: rotate(154.8deg); } }
 .donut--44:before {
-  animation: rota1-44 0.8s forwards; }
+  animation: rota1-44 2.8s forwards; }
 
 @keyframes rota1-44 {
   0% {
@@ -748,7 +714,7 @@ button {
   100% {
     transform: rotate(158.4deg); } }
 .donut--45:before {
-  animation: rota1-45 0.8s forwards; }
+  animation: rota1-45 2.8s forwards; }
 
 @keyframes rota1-45 {
   0% {
@@ -756,7 +722,7 @@ button {
   100% {
     transform: rotate(162deg); } }
 .donut--46:before {
-  animation: rota1-46 0.8s forwards; }
+  animation: rota1-46 2.8s forwards; }
 
 @keyframes rota1-46 {
   0% {
@@ -764,7 +730,7 @@ button {
   100% {
     transform: rotate(165.6deg); } }
 .donut--47:before {
-  animation: rota1-47 0.8s forwards; }
+  animation: rota1-47 2.8s forwards; }
 
 @keyframes rota1-47 {
   0% {
@@ -772,7 +738,7 @@ button {
   100% {
     transform: rotate(169.2deg); } }
 .donut--48:before {
-  animation: rota1-48 0.8s forwards; }
+  animation: rota1-48 2.8s forwards; }
 
 @keyframes rota1-48 {
   0% {
@@ -780,7 +746,7 @@ button {
   100% {
     transform: rotate(172.8deg); } }
 .donut--49:before {
-  animation: rota1-49 0.8s forwards; }
+  animation: rota1-49 2.8s forwards; }
 
 @keyframes rota1-49 {
   0% {
@@ -788,10 +754,10 @@ button {
   100% {
     transform: rotate(176.4deg); } }
 .donut--50:before {
-  animation: rota1-50 0.8s forwards; }
+  animation: rota1-50 2.8s forwards; }
 
 .donut--50:after {
-  animation: rota2-50 0s forwards 0.8s; }
+  animation: rota2-50 0s forwards 2.8s; }
 
 @keyframes rota1-50 {
   0% {
@@ -806,10 +772,10 @@ button {
     transform: rotate(180deg);
     opacity: 1; } }
 .donut--51:before {
-  animation: rota1-51 0.8s forwards; }
+  animation: rota1-51 2.8s forwards; }
 
 .donut--51:after {
-  animation: rota2-51 0.016s forwards 0.8s; }
+  animation: rota2-51 0.056s forwards 2.8s; }
 
 @keyframes rota1-51 {
   0% {
@@ -824,10 +790,10 @@ button {
     transform: rotate(183.6deg);
     opacity: 1; } }
 .donut--52:before {
-  animation: rota1-52 0.8s forwards; }
+  animation: rota1-52 2.8s forwards; }
 
 .donut--52:after {
-  animation: rota2-52 0.032s forwards 0.8s; }
+  animation: rota2-52 0.112s forwards 2.8s; }
 
 @keyframes rota1-52 {
   0% {
@@ -842,10 +808,10 @@ button {
     transform: rotate(187.2deg);
     opacity: 1; } }
 .donut--53:before {
-  animation: rota1-53 0.8s forwards; }
+  animation: rota1-53 2.8s forwards; }
 
 .donut--53:after {
-  animation: rota2-53 0.048s forwards 0.8s; }
+  animation: rota2-53 0.168s forwards 2.8s; }
 
 @keyframes rota1-53 {
   0% {
@@ -860,10 +826,10 @@ button {
     transform: rotate(190.8deg);
     opacity: 1; } }
 .donut--54:before {
-  animation: rota1-54 0.8s forwards; }
+  animation: rota1-54 2.8s forwards; }
 
 .donut--54:after {
-  animation: rota2-54 0.064s forwards 0.8s; }
+  animation: rota2-54 0.224s forwards 2.8s; }
 
 @keyframes rota1-54 {
   0% {
@@ -878,10 +844,10 @@ button {
     transform: rotate(194.4deg);
     opacity: 1; } }
 .donut--55:before {
-  animation: rota1-55 0.8s forwards; }
+  animation: rota1-55 2.8s forwards; }
 
 .donut--55:after {
-  animation: rota2-55 0.08s forwards 0.8s; }
+  animation: rota2-55 0.28s forwards 2.8s; }
 
 @keyframes rota1-55 {
   0% {
@@ -896,10 +862,10 @@ button {
     transform: rotate(198deg);
     opacity: 1; } }
 .donut--56:before {
-  animation: rota1-56 0.8s forwards; }
+  animation: rota1-56 2.8s forwards; }
 
 .donut--56:after {
-  animation: rota2-56 0.096s forwards 0.8s; }
+  animation: rota2-56 0.336s forwards 2.8s; }
 
 @keyframes rota1-56 {
   0% {
@@ -914,10 +880,10 @@ button {
     transform: rotate(201.6deg);
     opacity: 1; } }
 .donut--57:before {
-  animation: rota1-57 0.8s forwards; }
+  animation: rota1-57 2.8s forwards; }
 
 .donut--57:after {
-  animation: rota2-57 0.112s forwards 0.8s; }
+  animation: rota2-57 0.392s forwards 2.8s; }
 
 @keyframes rota1-57 {
   0% {
@@ -932,10 +898,10 @@ button {
     transform: rotate(205.2deg);
     opacity: 1; } }
 .donut--58:before {
-  animation: rota1-58 0.8s forwards; }
+  animation: rota1-58 2.8s forwards; }
 
 .donut--58:after {
-  animation: rota2-58 0.128s forwards 0.8s; }
+  animation: rota2-58 0.448s forwards 2.8s; }
 
 @keyframes rota1-58 {
   0% {
@@ -950,10 +916,10 @@ button {
     transform: rotate(208.8deg);
     opacity: 1; } }
 .donut--59:before {
-  animation: rota1-59 0.8s forwards; }
+  animation: rota1-59 2.8s forwards; }
 
 .donut--59:after {
-  animation: rota2-59 0.144s forwards 0.8s; }
+  animation: rota2-59 0.504s forwards 2.8s; }
 
 @keyframes rota1-59 {
   0% {
@@ -968,10 +934,10 @@ button {
     transform: rotate(212.4deg);
     opacity: 1; } }
 .donut--60:before {
-  animation: rota1-60 0.8s forwards; }
+  animation: rota1-60 2.8s forwards; }
 
 .donut--60:after {
-  animation: rota2-60 0.16s forwards 0.8s; }
+  animation: rota2-60 0.56s forwards 2.8s; }
 
 @keyframes rota1-60 {
   0% {
@@ -986,10 +952,10 @@ button {
     transform: rotate(216deg);
     opacity: 1; } }
 .donut--61:before {
-  animation: rota1-61 0.8s forwards; }
+  animation: rota1-61 2.8s forwards; }
 
 .donut--61:after {
-  animation: rota2-61 0.176s forwards 0.8s; }
+  animation: rota2-61 0.616s forwards 2.8s; }
 
 @keyframes rota1-61 {
   0% {
@@ -1004,10 +970,10 @@ button {
     transform: rotate(219.6deg);
     opacity: 1; } }
 .donut--62:before {
-  animation: rota1-62 0.8s forwards; }
+  animation: rota1-62 2.8s forwards; }
 
 .donut--62:after {
-  animation: rota2-62 0.192s forwards 0.8s; }
+  animation: rota2-62 0.672s forwards 2.8s; }
 
 @keyframes rota1-62 {
   0% {
@@ -1022,10 +988,10 @@ button {
     transform: rotate(223.2deg);
     opacity: 1; } }
 .donut--63:before {
-  animation: rota1-63 0.8s forwards; }
+  animation: rota1-63 2.8s forwards; }
 
 .donut--63:after {
-  animation: rota2-63 0.208s forwards 0.8s; }
+  animation: rota2-63 0.728s forwards 2.8s; }
 
 @keyframes rota1-63 {
   0% {
@@ -1040,10 +1006,10 @@ button {
     transform: rotate(226.8deg);
     opacity: 1; } }
 .donut--64:before {
-  animation: rota1-64 0.8s forwards; }
+  animation: rota1-64 2.8s forwards; }
 
 .donut--64:after {
-  animation: rota2-64 0.224s forwards 0.8s; }
+  animation: rota2-64 0.784s forwards 2.8s; }
 
 @keyframes rota1-64 {
   0% {
@@ -1058,10 +1024,10 @@ button {
     transform: rotate(230.4deg);
     opacity: 1; } }
 .donut--65:before {
-  animation: rota1-65 0.8s forwards; }
+  animation: rota1-65 2.8s forwards; }
 
 .donut--65:after {
-  animation: rota2-65 0.24s forwards 0.8s; }
+  animation: rota2-65 0.84s forwards 2.8s; }
 
 @keyframes rota1-65 {
   0% {
@@ -1076,10 +1042,10 @@ button {
     transform: rotate(234deg);
     opacity: 1; } }
 .donut--66:before {
-  animation: rota1-66 0.8s forwards; }
+  animation: rota1-66 2.8s forwards; }
 
 .donut--66:after {
-  animation: rota2-66 0.256s forwards 0.8s; }
+  animation: rota2-66 0.896s forwards 2.8s; }
 
 @keyframes rota1-66 {
   0% {
@@ -1094,10 +1060,10 @@ button {
     transform: rotate(237.6deg);
     opacity: 1; } }
 .donut--67:before {
-  animation: rota1-67 0.8s forwards; }
+  animation: rota1-67 2.8s forwards; }
 
 .donut--67:after {
-  animation: rota2-67 0.272s forwards 0.8s; }
+  animation: rota2-67 0.952s forwards 2.8s; }
 
 @keyframes rota1-67 {
   0% {
@@ -1112,10 +1078,10 @@ button {
     transform: rotate(241.2deg);
     opacity: 1; } }
 .donut--68:before {
-  animation: rota1-68 0.8s forwards; }
+  animation: rota1-68 2.8s forwards; }
 
 .donut--68:after {
-  animation: rota2-68 0.288s forwards 0.8s; }
+  animation: rota2-68 1.008s forwards 2.8s; }
 
 @keyframes rota1-68 {
   0% {
@@ -1130,10 +1096,10 @@ button {
     transform: rotate(244.8deg);
     opacity: 1; } }
 .donut--69:before {
-  animation: rota1-69 0.8s forwards; }
+  animation: rota1-69 2.8s forwards; }
 
 .donut--69:after {
-  animation: rota2-69 0.304s forwards 0.8s; }
+  animation: rota2-69 1.064s forwards 2.8s; }
 
 @keyframes rota1-69 {
   0% {
@@ -1148,10 +1114,10 @@ button {
     transform: rotate(248.4deg);
     opacity: 1; } }
 .donut--70:before {
-  animation: rota1-70 0.8s forwards; }
+  animation: rota1-70 2.8s forwards; }
 
 .donut--70:after {
-  animation: rota2-70 0.32s forwards 0.8s; }
+  animation: rota2-70 1.12s forwards 2.8s; }
 
 @keyframes rota1-70 {
   0% {
@@ -1166,10 +1132,10 @@ button {
     transform: rotate(252deg);
     opacity: 1; } }
 .donut--71:before {
-  animation: rota1-71 0.8s forwards; }
+  animation: rota1-71 2.8s forwards; }
 
 .donut--71:after {
-  animation: rota2-71 0.336s forwards 0.8s; }
+  animation: rota2-71 1.176s forwards 2.8s; }
 
 @keyframes rota1-71 {
   0% {
@@ -1184,10 +1150,10 @@ button {
     transform: rotate(255.6deg);
     opacity: 1; } }
 .donut--72:before {
-  animation: rota1-72 0.8s forwards; }
+  animation: rota1-72 2.8s forwards; }
 
 .donut--72:after {
-  animation: rota2-72 0.352s forwards 0.8s; }
+  animation: rota2-72 1.232s forwards 2.8s; }
 
 @keyframes rota1-72 {
   0% {
@@ -1202,10 +1168,10 @@ button {
     transform: rotate(259.2deg);
     opacity: 1; } }
 .donut--73:before {
-  animation: rota1-73 0.8s forwards; }
+  animation: rota1-73 2.8s forwards; }
 
 .donut--73:after {
-  animation: rota2-73 0.368s forwards 0.8s; }
+  animation: rota2-73 1.288s forwards 2.8s; }
 
 @keyframes rota1-73 {
   0% {
@@ -1220,10 +1186,10 @@ button {
     transform: rotate(262.8deg);
     opacity: 1; } }
 .donut--74:before {
-  animation: rota1-74 0.8s forwards; }
+  animation: rota1-74 2.8s forwards; }
 
 .donut--74:after {
-  animation: rota2-74 0.384s forwards 0.8s; }
+  animation: rota2-74 1.344s forwards 2.8s; }
 
 @keyframes rota1-74 {
   0% {
@@ -1238,10 +1204,10 @@ button {
     transform: rotate(266.4deg);
     opacity: 1; } }
 .donut--75:before {
-  animation: rota1-75 0.8s forwards; }
+  animation: rota1-75 2.8s forwards; }
 
 .donut--75:after {
-  animation: rota2-75 0.4s forwards 0.8s; }
+  animation: rota2-75 1.4s forwards 2.8s; }
 
 @keyframes rota1-75 {
   0% {
@@ -1256,10 +1222,10 @@ button {
     transform: rotate(270deg);
     opacity: 1; } }
 .donut--76:before {
-  animation: rota1-76 0.8s forwards; }
+  animation: rota1-76 2.8s forwards; }
 
 .donut--76:after {
-  animation: rota2-76 0.416s forwards 0.8s; }
+  animation: rota2-76 1.456s forwards 2.8s; }
 
 @keyframes rota1-76 {
   0% {
@@ -1274,10 +1240,10 @@ button {
     transform: rotate(273.6deg);
     opacity: 1; } }
 .donut--77:before {
-  animation: rota1-77 0.8s forwards; }
+  animation: rota1-77 2.8s forwards; }
 
 .donut--77:after {
-  animation: rota2-77 0.432s forwards 0.8s; }
+  animation: rota2-77 1.512s forwards 2.8s; }
 
 @keyframes rota1-77 {
   0% {
@@ -1292,10 +1258,10 @@ button {
     transform: rotate(277.2deg);
     opacity: 1; } }
 .donut--78:before {
-  animation: rota1-78 0.8s forwards; }
+  animation: rota1-78 2.8s forwards; }
 
 .donut--78:after {
-  animation: rota2-78 0.448s forwards 0.8s; }
+  animation: rota2-78 1.568s forwards 2.8s; }
 
 @keyframes rota1-78 {
   0% {
@@ -1310,10 +1276,10 @@ button {
     transform: rotate(280.8deg);
     opacity: 1; } }
 .donut--79:before {
-  animation: rota1-79 0.8s forwards; }
+  animation: rota1-79 2.8s forwards; }
 
 .donut--79:after {
-  animation: rota2-79 0.464s forwards 0.8s; }
+  animation: rota2-79 1.624s forwards 2.8s; }
 
 @keyframes rota1-79 {
   0% {
@@ -1328,10 +1294,10 @@ button {
     transform: rotate(284.4deg);
     opacity: 1; } }
 .donut--80:before {
-  animation: rota1-80 0.8s forwards; }
+  animation: rota1-80 2.8s forwards; }
 
 .donut--80:after {
-  animation: rota2-80 0.48s forwards 0.8s; }
+  animation: rota2-80 1.68s forwards 2.8s; }
 
 @keyframes rota1-80 {
   0% {
@@ -1346,10 +1312,10 @@ button {
     transform: rotate(288deg);
     opacity: 1; } }
 .donut--81:before {
-  animation: rota1-81 0.8s forwards; }
+  animation: rota1-81 2.8s forwards; }
 
 .donut--81:after {
-  animation: rota2-81 0.496s forwards 0.8s; }
+  animation: rota2-81 1.736s forwards 2.8s; }
 
 @keyframes rota1-81 {
   0% {
@@ -1364,10 +1330,10 @@ button {
     transform: rotate(291.6deg);
     opacity: 1; } }
 .donut--82:before {
-  animation: rota1-82 0.8s forwards; }
+  animation: rota1-82 2.8s forwards; }
 
 .donut--82:after {
-  animation: rota2-82 0.512s forwards 0.8s; }
+  animation: rota2-82 1.792s forwards 2.8s; }
 
 @keyframes rota1-82 {
   0% {
@@ -1382,10 +1348,10 @@ button {
     transform: rotate(295.2deg);
     opacity: 1; } }
 .donut--83:before {
-  animation: rota1-83 0.8s forwards; }
+  animation: rota1-83 2.8s forwards; }
 
 .donut--83:after {
-  animation: rota2-83 0.528s forwards 0.8s; }
+  animation: rota2-83 1.848s forwards 2.8s; }
 
 @keyframes rota1-83 {
   0% {
@@ -1400,10 +1366,10 @@ button {
     transform: rotate(298.8deg);
     opacity: 1; } }
 .donut--84:before {
-  animation: rota1-84 0.8s forwards; }
+  animation: rota1-84 2.8s forwards; }
 
 .donut--84:after {
-  animation: rota2-84 0.544s forwards 0.8s; }
+  animation: rota2-84 1.904s forwards 2.8s; }
 
 @keyframes rota1-84 {
   0% {
@@ -1418,10 +1384,10 @@ button {
     transform: rotate(302.4deg);
     opacity: 1; } }
 .donut--85:before {
-  animation: rota1-85 0.8s forwards; }
+  animation: rota1-85 2.8s forwards; }
 
 .donut--85:after {
-  animation: rota2-85 0.56s forwards 0.8s; }
+  animation: rota2-85 1.96s forwards 2.8s; }
 
 @keyframes rota1-85 {
   0% {
@@ -1436,10 +1402,10 @@ button {
     transform: rotate(306deg);
     opacity: 1; } }
 .donut--86:before {
-  animation: rota1-86 0.8s forwards; }
+  animation: rota1-86 2.8s forwards; }
 
 .donut--86:after {
-  animation: rota2-86 0.576s forwards 0.8s; }
+  animation: rota2-86 2.016s forwards 2.8s; }
 
 @keyframes rota1-86 {
   0% {
@@ -1454,10 +1420,10 @@ button {
     transform: rotate(309.6deg);
     opacity: 1; } }
 .donut--87:before {
-  animation: rota1-87 0.8s forwards; }
+  animation: rota1-87 2.8s forwards; }
 
 .donut--87:after {
-  animation: rota2-87 0.592s forwards 0.8s; }
+  animation: rota2-87 2.072s forwards 2.8s; }
 
 @keyframes rota1-87 {
   0% {
@@ -1472,10 +1438,10 @@ button {
     transform: rotate(313.2deg);
     opacity: 1; } }
 .donut--88:before {
-  animation: rota1-88 0.8s forwards; }
+  animation: rota1-88 2.8s forwards; }
 
 .donut--88:after {
-  animation: rota2-88 0.608s forwards 0.8s; }
+  animation: rota2-88 2.128s forwards 2.8s; }
 
 @keyframes rota1-88 {
   0% {
@@ -1490,10 +1456,10 @@ button {
     transform: rotate(316.8deg);
     opacity: 1; } }
 .donut--89:before {
-  animation: rota1-89 0.8s forwards; }
+  animation: rota1-89 2.8s forwards; }
 
 .donut--89:after {
-  animation: rota2-89 0.624s forwards 0.8s; }
+  animation: rota2-89 2.184s forwards 2.8s; }
 
 @keyframes rota1-89 {
   0% {
@@ -1508,10 +1474,10 @@ button {
     transform: rotate(320.4deg);
     opacity: 1; } }
 .donut--90:before {
-  animation: rota1-90 0.8s forwards; }
+  animation: rota1-90 2.8s forwards; }
 
 .donut--90:after {
-  animation: rota2-90 0.64s forwards 0.8s; }
+  animation: rota2-90 2.24s forwards 2.8s; }
 
 @keyframes rota1-90 {
   0% {
@@ -1526,10 +1492,10 @@ button {
     transform: rotate(324deg);
     opacity: 1; } }
 .donut--91:before {
-  animation: rota1-91 0.8s forwards; }
+  animation: rota1-91 2.8s forwards; }
 
 .donut--91:after {
-  animation: rota2-91 0.656s forwards 0.8s; }
+  animation: rota2-91 2.296s forwards 2.8s; }
 
 @keyframes rota1-91 {
   0% {
@@ -1544,10 +1510,10 @@ button {
     transform: rotate(327.6deg);
     opacity: 1; } }
 .donut--92:before {
-  animation: rota1-92 0.8s forwards; }
+  animation: rota1-92 2.8s forwards; }
 
 .donut--92:after {
-  animation: rota2-92 0.672s forwards 0.8s; }
+  animation: rota2-92 2.352s forwards 2.8s; }
 
 @keyframes rota1-92 {
   0% {
@@ -1562,10 +1528,10 @@ button {
     transform: rotate(331.2deg);
     opacity: 1; } }
 .donut--93:before {
-  animation: rota1-93 0.8s forwards; }
+  animation: rota1-93 2.8s forwards; }
 
 .donut--93:after {
-  animation: rota2-93 0.688s forwards 0.8s; }
+  animation: rota2-93 2.408s forwards 2.8s; }
 
 @keyframes rota1-93 {
   0% {
@@ -1580,10 +1546,10 @@ button {
     transform: rotate(334.8deg);
     opacity: 1; } }
 .donut--94:before {
-  animation: rota1-94 0.8s forwards; }
+  animation: rota1-94 2.8s forwards; }
 
 .donut--94:after {
-  animation: rota2-94 0.704s forwards 0.8s; }
+  animation: rota2-94 2.464s forwards 2.8s; }
 
 @keyframes rota1-94 {
   0% {
@@ -1598,10 +1564,10 @@ button {
     transform: rotate(338.4deg);
     opacity: 1; } }
 .donut--95:before {
-  animation: rota1-95 0.8s forwards; }
+  animation: rota1-95 2.8s forwards; }
 
 .donut--95:after {
-  animation: rota2-95 0.72s forwards 0.8s; }
+  animation: rota2-95 2.52s forwards 2.8s; }
 
 @keyframes rota1-95 {
   0% {
@@ -1616,10 +1582,10 @@ button {
     transform: rotate(342deg);
     opacity: 1; } }
 .donut--96:before {
-  animation: rota1-96 0.8s forwards; }
+  animation: rota1-96 2.8s forwards; }
 
 .donut--96:after {
-  animation: rota2-96 0.736s forwards 0.8s; }
+  animation: rota2-96 2.576s forwards 2.8s; }
 
 @keyframes rota1-96 {
   0% {
@@ -1634,10 +1600,10 @@ button {
     transform: rotate(345.6deg);
     opacity: 1; } }
 .donut--97:before {
-  animation: rota1-97 0.8s forwards; }
+  animation: rota1-97 2.8s forwards; }
 
 .donut--97:after {
-  animation: rota2-97 0.752s forwards 0.8s; }
+  animation: rota2-97 2.632s forwards 2.8s; }
 
 @keyframes rota1-97 {
   0% {
@@ -1652,10 +1618,10 @@ button {
     transform: rotate(349.2deg);
     opacity: 1; } }
 .donut--98:before {
-  animation: rota1-98 0.8s forwards; }
+  animation: rota1-98 2.8s forwards; }
 
 .donut--98:after {
-  animation: rota2-98 0.768s forwards 0.8s; }
+  animation: rota2-98 2.688s forwards 2.8s; }
 
 @keyframes rota1-98 {
   0% {
@@ -1670,10 +1636,10 @@ button {
     transform: rotate(352.8deg);
     opacity: 1; } }
 .donut--99:before {
-  animation: rota1-99 0.8s forwards; }
+  animation: rota1-99 2.8s forwards; }
 
 .donut--99:after {
-  animation: rota2-99 0.784s forwards 0.8s; }
+  animation: rota2-99 2.744s forwards 2.8s; }
 
 @keyframes rota1-99 {
   0% {
@@ -1688,10 +1654,10 @@ button {
     transform: rotate(356.4deg);
     opacity: 1; } }
 .donut--100:before {
-  animation: rota1-100 0.8s forwards; }
+  animation: rota1-100 2.8s forwards; }
 
 .donut--100:after {
-  animation: rota2-100 0.8s forwards 0.8s; }
+  animation: rota2-100 2.8s forwards 2.8s; }
 
 @keyframes rota1-100 {
   0% {
@@ -1718,7 +1684,6 @@ button {
   margin: 0 auto; }
 
 .slide1 {
-  background-image: url(../images/slides/slide1.png);
   -webkit-background-size: contain;
   background-size: contain;
   display: inline-block;
@@ -1727,7 +1692,8 @@ button {
 .quick-turnaround-content > div {
   display: inline-block;
   width: 33%;
-  text-align: center; }
+  text-align: center;
+  float: left; }
 
 h2 {
   text-align: center;
@@ -1757,6 +1723,9 @@ p {
 
 .img-turnaround-question {
   margin: 0 auto; }
+
+.printing-category {
+  text-align: center; }
 
 .printing-category-top {
   background: #f4f4f4;
@@ -1807,7 +1776,8 @@ p {
   margin: 0 auto;
   max-width: 1400px;
   margin-top: -13.4%;
-  background: white; }
+  background: white;
+  display: inline-block; }
 
 .printing-category-grid-content {
   display: inline-block;
@@ -1820,8 +1790,7 @@ p {
 
 .printing-category-grid .col-6 {
   background: #fff;
-  max-height: 700px;
-  padding-bottom: 15%; }
+  max-height: 700px; }
 
 .printing-category-grid-content .red {
   color: #ea3624;
@@ -1849,6 +1818,16 @@ p {
   float: left;
   border-top: 1px solid #7d7d7d;
   border-bottom: 1px solid #7d7d7d; }
+  .printing-category-grid-container .row {
+    position: relative; }
+    .printing-category-grid-container .row .bg-aqua {
+      position: absolute;
+      left: 50%;
+      height: 100%; }
+    .printing-category-grid-container .row .bg-yellow, .printing-category-grid-container .row .bg-grey {
+      position: absolute;
+      left: 0;
+      height: 100%; }
 
 .printing-category-grid .bg-aqua {
   background: #2dccd3; }
@@ -1865,5 +1844,354 @@ p {
   font-size: 24px;
   letter-spacing: 1px;
   margin-bottom: 0; }
+
+.track_order_container {
+  display: inline-block;
+  width: 100%; }
+
+.progress-bar-order {
+  margin-top: 7%; }
+
+.progress {
+  overflow: hidden;
+  height: 30px;
+  background-color: #ccc;
+  border-radius: 30px;
+  margin-bottom: 50px; }
+
+.progress-bar {
+  width: 0;
+  height: 100%;
+  color: #fff;
+  text-align: center;
+  background-color: #ee303c; }
+
+.points-progress .progress-point {
+  display: inline-block;
+  width: 19.6%;
+  vertical-align: top; }
+
+.progress-point p {
+  color: #4e4e4f;
+  font-size: 27px;
+  font-family: 'TGSharpSans-Semibold';
+  vertical-align: text-top; }
+
+.progress-point .current-step {
+  font-family: 'TGSharpSans-Bold'; }
+
+.track_order h2 {
+  color: #4e4e4f; }
+
+.track_order {
+  text-align: center; }
+
+.track_order_container {
+  display: inline-block;
+  width: 100%;
+  max-width: 1500px;
+  padding-top: 10%;
+  padding-bottom: 3.4%; }
+
+.order_number {
+  max-width: 800px;
+  margin: 0 auto;
+  height: 7.5vw;
+  border: 7px solid;
+  border-radius: 100px;
+  margin-top: 9.3%;
+  text-align: left;
+  max-height: 140px;
+  min-height: 55px; }
+
+.order_number input {
+  width: 75%;
+  display: inline-block;
+  height: 100%;
+  background: transparent;
+  border: 0;
+  font-size: 29px;
+  padding: 0 0 0 7%;
+  float: left; }
+
+.order_number button {
+  display: inline-block;
+  width: 24%;
+  height: 100%;
+  background: transparent;
+  border: 0; }
+
+.order_number button span {
+  display: inline-block;
+  width: 100%;
+  font-size: 38px;
+  border-left: 3px solid;
+  line-height: 4vw; }
+
+.order-request {
+  background-image: url(../images/bg-prder-request.png);
+  -webkit-background-size: cover;
+  background-size: cover;
+  display: inline-block;
+  width: 100%;
+  max-height: 830px; }
+
+.order-request-container {
+  padding-top: 13%;
+  text-align: center;
+  padding-bottom: 8%; }
+
+.order-request-container p {
+  color: #000;
+  font-size: 28px;
+  margin-bottom: 6%; }
+
+.order-request-container h2 {
+  margin-bottom: 3.3%; }
+
+.order-request-container .tg-button {
+  width: 17vw;
+  height: 4.5vw;
+  background: white;
+  border-radius: 100px;
+  color: #ea3624;
+  text-transform: uppercase;
+  font-size: 37px;
+  letter-spacing: 3px;
+  border: none; }
+
+.order-request {
+  background-image: url(../images/bg-prder-request.png);
+  -webkit-background-size: cover;
+  background-size: cover;
+  display: inline-block;
+  width: 100%;
+  max-height: 830px; }
+
+.order-request-container {
+  padding-top: 13%;
+  text-align: center;
+  padding-bottom: 8%; }
+
+.order-request-container p {
+  color: #000;
+  font-size: 28px;
+  margin-bottom: 6%; }
+
+.order-request-container h2 {
+  margin-bottom: 3.3%; }
+
+.order-request-container .tg-button {
+  width: 17vw;
+  height: 4.5vw;
+  background: white;
+  border-radius: 100px;
+  color: #ea3624;
+  text-transform: uppercase;
+  font-size: 37px;
+  letter-spacing: 3px;
+  border: none; }
+
+.template-generator {
+  background-image: url(../images/bg-template-generator.png);
+  -webkit-background-size: cover;
+  background-size: cover;
+  display: inline-block;
+  width: 100%;
+  max-height: 830px; }
+
+.template-generator-container {
+  padding-top: 13%;
+  text-align: center;
+  padding-bottom: 8%; }
+
+.template-generator-container p {
+  color: #4e4e4f;
+  font-size: 28px;
+  margin-bottom: 6%; }
+
+.template-generator-container h2 {
+  margin-bottom: 3.3%;
+  color: #4e4e4f; }
+
+.template-generator-container .tg-button {
+  width: 17vw;
+  height: 4.5vw;
+  background: #ea3624;
+  border-radius: 100px;
+  color: white;
+  text-transform: uppercase;
+  font-size: 37px;
+  letter-spacing: 3px;
+  border: none; }
+
+.need-help {
+  text-align: center; }
+
+.need-help-container {
+  max-width: 1400px;
+  width: 100%;
+  display: inline-block;
+  padding-top: 8.8%; }
+
+.need-help-container h2 {
+  color: #4e4e4f;
+  margin-bottom: 3.5%; }
+
+.need-help-container p {
+  color: #4e4e4f;
+  font-size: 28px;
+  margin-bottom: 7.5%; }
+
+.aqua-circle {
+  width: 220px;
+  height: 220px;
+  background: #2dccd3;
+  border-radius: 50%;
+  color: white;
+  font-size: 27px;
+  padding: 70px 0;
+  margin: 0 auto 25px auto; }
+
+.brd-r {
+  border-right: 1px solid grey; }
+
+.black-font {
+  color: black;
+  font-size: 25px;
+  font-family: 'TGSharpSans-Semibold'; }
+
+.need-help-circles p {
+  font-family: 'TGSharpSans-Semibold';
+  font-size: 26px; }
+
+.separate {
+  display: inline-block;
+  width: 1px;
+  background: #4e4e4f;
+  height: 17vw;
+  float: left;
+  max-height: 325px; }
+
+.need-help-circles .col-6 {
+  width: 49%; }
+
+.need-help-faq {
+  color: #2dccd3;
+  border-bottom: 3px solid;
+  padding: 0 5px; }
+
+.footer {
+  padding-top: 10%;
+  border-top: none; }
+
+.footer-links {
+  text-align: center;
+  font-size: 24px;
+  font-family: 'TGSharpSans-Medium';
+  letter-spacing: 1px;
+  margin-bottom: 7%;
+  color: black; }
+
+.footer-links a {
+  font-size: 24px;
+  color: black; }
+
+.social-links a {
+  display: inline-block;
+  margin: 0 5px; }
+
+.social-links {
+  text-align: center; }
+
+.footer address {
+  border-top: none;
+  text-align: center;
+  width: 100%;
+  font-size: 15px;
+  margin-top: 30px;
+  padding: 30px 0;
+  font-family: 'TGSharpSans-Medium';
+  color: #888b8d; }
+
+.tg-menu-active {
+  position: absolute;
+  background: white;
+  width: 50%;
+  left: 0;
+  top: 105px;
+  text-transform: uppercase;
+  font-family: 'TGSharpSans-Bold'; }
+
+.tg-menu-active .menu-links a {
+  text-decoration: none;
+  color: #ea3624;
+  height: 90px;
+  line-height: 90px;
+  padding-left: 20px;
+  display: inline-block;
+  width: 100%;
+  font-size: 20px; }
+
+.tg-menu-active .menu-links a:hover {
+  color: #fff;
+  background: #ea3624; }
+
+a:focus {
+  outline: none; }
+
+.printing-category-grid .col-6 img {
+  width: 100%; }
+
+.printing-category-grid .printing-category-grid-content img {
+  width: auto; }
+
+.right {
+  float: right; }
+
+.owl-dots button {
+  margin: 0;
+  width: auto; }
+
+.owl-theme .owl-dots {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  bottom: 5%; }
+
+#tg-login.displace {
+  height: 90px;
+  line-height: 90px;
+  padding-left: 20px;
+  display: inline-block;
+  width: 100%;
+  font-size: 20px;
+  margin: 0; }
+
+.quick-turnaround .owl-carousel .item > div {
+  text-align: center; }
+
+#search {
+  border: 3px solid #ea3624;
+  border-radius: 25px;
+  width: 100%;
+  height: 50px; }
+
+#search_mini_form .search-button {
+  top: 6px; }
+
+#header-search {
+  top: 115px; }
+
+#header-cart.skip-active {
+  top: 100px;
+  background: white;
+  border: 3px solid #ea3624;
+  border-radius: 10px; }
+
+.minicart-wrapper p {
+  color: #000; }
 
 /*# sourceMappingURL=tendergreens.css.map */
