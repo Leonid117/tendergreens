@@ -213,6 +213,7 @@
             <action method="addItem"><type>skin_css</type><name>css/owl.theme.default.min.css</name><params/><if><![CDATA[<!--[if (gte IE 9) | (IEMobile)]><!-->]]></if></action>
             <action method="addItem"><type>skin_css</type><name>css/tendergreens.css</name><params/><if><![CDATA[<!--[if (gte IE 9) | (IEMobile)]><!-->]]></if></action>
             <action method="addItem"><type>skin_css</type><name>css/tendergreens-responsive.css</name><params/><if><![CDATA[<!--[if (gte IE 9) | (IEMobile)]><!-->]]></if></action>
+            <action method="addItem"><type>skin_css</type><name>css/fontawesome-all.css</name><params/><if><![CDATA[<!--[if (gte IE 9) | (IEMobile)]><!-->]]></if></action>
 
             <!-- Sets viewport meta tag using text block -->
             <block type="core/text" name="head.viewport">

@@ -1890,33 +1890,45 @@ p {
   display: inline-block;
   width: 100%;
   max-width: 1500px;
-  padding-top: 10%;
-  padding-bottom: 3.4%; }
+  padding-top: 8%;
+  padding-bottom: 10.3%; }
+  .track_order_container h6 {
+    color: #4e4e4f;
+    letter-spacing: 8px;
+    margin-top: 13px; }
+  .track_order_container h2 {
+    font-size: 88px;
+    letter-spacing: 7px; }
+  .track_order_container p {
+    font-size: 23px;
+    margin: 10px;
+    color: #4e4e4f; }
 
 .order_number {
-  max-width: 800px;
   margin: 0 auto;
-  height: 7.5vw;
-  border: 7px solid;
+  height: 70px;
+  border: 3px solid;
   border-radius: 100px;
-  margin-top: 9.3%;
   text-align: left;
   max-height: 140px;
-  min-height: 55px; }
+  min-height: 55px;
+  max-width: 580px; }
 
 .order_number input {
-  width: 75%;
+  width: 85%;
   display: inline-block;
   height: 100%;
   background: transparent;
   border: 0;
-  font-size: 29px;
-  padding: 0 0 0 7%;
-  float: left; }
+  font-size: 16px;
+  padding: 0 0 0 5%;
+  float: left;
+  font-family: 'TGSharpSans-Medium';
+  color: #4e4e4f; }
 
 .order_number button {
   display: inline-block;
-  width: 24%;
+  width: 14%;
   height: 100%;
   background: transparent;
   border: 0; }
@@ -1924,9 +1936,10 @@ p {
 .order_number button span {
   display: inline-block;
   width: 100%;
-  font-size: 38px;
-  border-left: 3px solid;
-  line-height: 4vw; }
+  font-size: 16px;
+  letter-spacing: 5px;
+  border-left: 1px solid;
+  line-height: 36px; }
 
 .order-request {
   background-image: url(../images/bg-prder-request.png);
@@ -2193,5 +2206,31 @@ a:focus {
 
 .minicart-wrapper p {
   color: #000; }
+
+.tg-more {
+  background: #231f20;
+  color: #fff;
+  width: 210px;
+  height: 70px;
+  border-radius: 80px;
+  border: 0;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-family: 'TGSharpSans-Extrabold';
+  letter-spacing: 1px; }
+
+.triangle {
+  border: 50px solid transparent;
+  border-top: 45px solid white;
+  margin: 0 auto;
+  height: 60px;
+  width: 80px;
+  bottom: -93px;
+  position: relative; }
+  .triangle .fas {
+    top: -49px;
+    position: relative;
+    font-size: 33px;
+    left: -13px; }
 
 /*# sourceMappingURL=tendergreens.css.map */
