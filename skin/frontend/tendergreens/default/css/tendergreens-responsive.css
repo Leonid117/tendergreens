@@ -1,9 +1,15 @@
 .mobile-show {
   display: none; }
 
-@media (max-width: 1450px) {
+@media (max-width: 1550px) {
+  .printing-demand-container {
+    padding-right: 5%; }
+
+  .order-request-container {
+    padding-left: 5%; }
+
   .quick-turnaround-content p {
-    font-size: 22px; }
+    font-size: 20px; }
 
   button {
     font-size: 24px !important; }
@@ -17,18 +23,22 @@
 
   .printing-category-grid-content img {
     margin-bottom: 20px; } }
+@media (max-width: 1300px) {
+  .slide-content h1 {
+    font-size: 45px;
+    margin-top: 3%; }
+
+  .slide-content h6 {
+    width: 80%; } }
 @media (max-width: 1200px) {
   .shop-by-category {
     display: none; }
 
   .quick-turnaround-content p {
-    font-size: 19px; }
+    font-size: 18px; }
 
   .printing-category-grid-content {
     margin-top: 10%; }
-
-  .slide-content h1 {
-    font-size: 60px; }
 
   .tg-header-right-container {
     text-align: right; } }
@@ -73,11 +83,20 @@
 
   .printing-category-grid-content .descr {
     margin-bottom: 10px;
-    font-size: 16px; }
+    font-size: 13px;
+    margin-top: 10px; }
+
+  .Notifications {
+    margin: 25px 0 0 20px;
+    float: right; }
 
   .printing-category-grid-content .red, .printing-category-grid-content .white {
     font-size: 24px;
     margin-top: 5px; }
+
+  .printing-category-grid-content .tg-more {
+    width: 120px;
+    height: 40px; }
 
   .printing-category-grid-content .cat {
     font-size: 18px; }
@@ -86,15 +105,6 @@
     padding-left: 4%;
     padding-right: 4%; }
 
-  .order_number {
-    height: 15.5vw; }
-
-  .progress {
-    height: 23px; }
-
-  .points-progress .progress-point {
-    vertical-align: middle; }
-
   .progress-point p {
     font-size: 16px; }
 
@@ -102,7 +112,7 @@
     font-size: 42px; }
 
   .order-request-container p,
-  .template-generator-container p,
+  .printing-demand-container p,
   .need-help-container p,
   .need-help-circles p {
     font-size: 20px; }
@@ -115,7 +125,7 @@
 
   .tg-search {
     position: absolute;
-    left: 100px; }
+    margin: -4px 0 0 77px; }
 
   .tg-menu {
     padding: 34px 0 0 20px; }
@@ -148,6 +158,38 @@
     left: 0;
     width: 500px; } }
 @media (max-width: 770px) {
+  .tg-header-right-container {
+    width: 165px; }
+
+  .quick-turnaround .col-4 {
+    float: none;
+    margin: 0 auto;
+    width: 310px;
+    display: block; }
+
+  .tg-header-right-container {
+    margin-right: 0; }
+
+  .quick-turnaround-content {
+    width: 100%; }
+
+  .quick-turnaround-content .col-4 .turn1, .quick-turnaround-content .col-4 .turn2, .quick-turnaround-content .col-4 .turn3 {
+    margin-bottom: 50px; }
+
+  .quick-turnaround-content .col-4 .turn1 .turn1-container,
+  .quick-turnaround-content .col-4 .turn1 .turn2-container,
+  .quick-turnaround-content .col-4 .turn1 .turn3-container,
+  .quick-turnaround-content .col-4 .turn2 .turn1-container,
+  .quick-turnaround-content .col-4 .turn2 .turn2-container,
+  .quick-turnaround-content .col-4 .turn2 .turn3-container,
+  .quick-turnaround-content .col-4 .turn3 .turn1-container,
+  .quick-turnaround-content .col-4 .turn3 .turn2-container,
+  .quick-turnaround-content .col-4 .turn3 .turn3-container {
+    height: 315px; }
+
+  .tg-header-right-container .Notifications, .tg-search {
+    display: none; }
+
   .tg-header-minicart .label {
     display: none; }
 
@@ -319,6 +361,14 @@
         border: 0;
         font-size: 22px; }
 
+  .shipping-status-container h3 {
+    margin-top: 30px; }
+  .shipping-status-container .more-inf {
+    margin-top: 5px; }
+
+  .help-poc-container form input {
+    width: 80%; }
+
   .progress-bar-order-mobile {
     margin-top: 90px; }
     .progress-bar-order-mobile .progress-line {
@@ -372,13 +422,13 @@
     .progress-bar-order-mobile .step3 .progress-step1 p, .progress-bar-order-mobile .step3 .progress-step2 p, .progress-bar-order-mobile .step3 .progress-step3 p {
       color: #4e4e4f; }
 
-  .order-request-container p, .template-generator-container p, .need-help-container p, .need-help-circles p {
+  .order-request-container p, .printing-demand-container p, .need-help-container p, .need-help-circles p {
     font-size: 14px;
     line-height: 16px;
     margin: 43px auto;
     width: 80%; }
 
-  .order-request-container, .template-generator-container {
+  .order-request-container, .printing-demand-container {
     padding-top: 43%;
     padding-bottom: 36%; }
 
@@ -475,10 +525,23 @@
     padding-left: 50px; }
 
   .search-button {
-    left: 5px; } }
+    left: 5px; }
+
+  .help-poc-container h2 {
+    font-size: 28px; } }
 @media (max-width: 425px) {
   .tg-menu-active .menu-links a, #tg-login.displace {
     text-align: center;
-    padding: 0; } }
+    padding: 0; }
+
+  .slide-content h1 {
+    font-size: 20px; }
+
+  .slide-content h6 {
+    font-size: 11px;
+    line-height: 19px; } }
+@media (min-width: 1550px) {
+  .turn3-container .red {
+    font-size: 27px; } }
 
 /*# sourceMappingURL=tendergreens-responsive.css.map */

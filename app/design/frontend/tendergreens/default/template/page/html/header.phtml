@@ -36,7 +36,17 @@
             <div class="hamburger-menu">
                 <div class="bar"></div>
             </div>
-            <span class="shop-by-category">shop by category</span>
+
+            <!-- Search -->
+            <div class="tg-search">
+                <div class="search-icon" id="search-icon">
+                    <img src="<?php echo $this->getSkinUrl('images/Search-icon.png'); ?>" alt="">
+                </div>
+                <div id="header-search" class="skip-content hide">
+                    <?php echo $this->getChildHtml('topSearch') ?>
+                </div>
+            </div>
+
             <div id="tg-menu" class="tg-menu-active hide">
                 <ul class="menu-links">
                     <li><a href="#">Menus</a></li>
@@ -52,35 +62,35 @@
 
         <div class="tg-logo">
             <a class="logo" href="<?php echo $this->getUrl('') ?>">
-                <img src="<?php echo $this->getLogoSrc() ?>" alt="<?php echo $this->getLogoAlt() ?>" class="large" />
-                <img src="<?php echo $this->getLogoSrcSmall() ?>" alt="<?php echo $this->getLogoAlt() ?>" class="small" />
+                <img src="<?php echo $this->getLogoSrc() ?>" alt="<?php echo $this->getLogoAlt() ?>" class="large"/>
+                <img src="<?php echo $this->getLogoSrcSmall() ?>" alt="<?php echo $this->getLogoAlt() ?>"
+                     class="small"/>
             </a>
         </div>
 
         <div class="tg-header-right">
             <div class="tg-header-right-container">
-                <!-- login -->
-
-                <div class="tg-login" id="tg-login">
-                    <a href="<?php echo $this->getBaseUrl(); ?>customer/account/login/">
-                        <span class="label"><?php echo $this->__('Login'); ?></span>
+                <div class="Notifications">
+                    <a href="#">
+                        <img class="login-ico" src="<?php echo $this->getSkinUrl('images/Notifications.png'); ?>"
+                             alt="">
+                        <div class="Notifications-num">
+                            <span>2</span>
+                        </div>
                     </a>
                 </div>
-
                 <!-- Cart -->
 
                 <div class="header-minicart">
                     <?php echo $this->getChildHtml('minicart_head'); ?>
                 </div>
+                <!-- login -->
 
-                <!-- Search -->
-                <div class="tg-search">
-                    <div class="search-icon" id="search-icon">
-                        <img src="<?php echo $this->getSkinUrl('images/Search-icon.png');?>" alt="">
-                    </div>
-                    <div id="header-search" class="skip-content hide">
-                        <?php echo $this->getChildHtml('topSearch') ?>
-                    </div>
+                <div class="tg-login" id="tg-login">
+                    <a href="<?php echo $this->getBaseUrl(); ?>customer/account/login/">
+                        <img class="login-ico" src="<?php echo $this->getSkinUrl('images/Login.png'); ?>" alt="">
+                        <span class="label"><?php echo $this->__('Login'); ?></span>
+                    </a>
                 </div>
             </div>
         </div>

@@ -1,12 +1,29 @@
 <div class="footer">
-    <div class="footer-links">
-        <a href="#">TG web</a> // <a href="#">dashboard</a> // <a href="#">FAQ</a> // <a href="#">contact</a>
+    <div class="tg-footer-container">
+        <img class="footer-logo" src="<?php echo $this->getSkinUrl('images/tg-footer.png'); ?>" alt="">
+        <h6>community</h6>
+        <div class="social-links">
+            <a href="#">
+                <div class="soc-circ">
+                    <i class="fab fa-instagram"></i>
+                </div>
+            </a>
+            <a href="#">
+                <div class="soc-circ">
+                    <i class="fab fa-facebook-f"></i>
+                </div>
+            </a>
+            <a href="#">
+                <div class="soc-circ">
+                    <i class="fab fa-twitter"></i>
+                </div>
+            </a>
+            <a href="#">
+                <div class="soc-circ">
+                    <i class="fab fa-youtube"></i>
+                </div>
+            </a>
+        </div>
+        <address class="copyright"><?php echo $this->getCopyright() ?></address>
     </div>
-    <div class="social-links">
-        <a href="#"><img src="<?php echo $this->getSkinUrl('images/twit-ico.png'); ?>" alt=""></a>
-        <a href="#"><img src="<?php echo $this->getSkinUrl('images/insta-ico.png'); ?>" alt=""></a>
-        <a href="#"><img src="<?php echo $this->getSkinUrl('images/facebook-ico.png'); ?>" alt=""></a>
-        <a href="#"><img src="<?php echo $this->getSkinUrl('images/youtube-ico.png'); ?>" alt=""></a>
-    </div>
-    <address class="copyright"><?php echo $this->getCopyright() ?></address>
 </div>
